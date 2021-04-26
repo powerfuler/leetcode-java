@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-ea -Xms2048m -Xmx2048m" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leetcode-java" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leetcode" target="1.8" />
+      <module name="leetcode-java" target="1.8" />
+      <module name="spring-kafka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
