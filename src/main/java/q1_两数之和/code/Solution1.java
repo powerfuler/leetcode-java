@@ -1,9 +1,9 @@
-package q1_两数之和.f1;
+package q1_两数之和.code;
 
 /**
- * 暴力法 o(n^2)
+ * 暴力枚举法 o(n^2)
  */
-public class Solution {
+public class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         for (int i = 0; i < nums.length; i++) {
