@@ -11,9 +11,9 @@ public class JunitTest {
         Solution1 solution = new Solution1();
         Solution2 solution2 = new Solution2();
 //        System.out.println(solution.longestPalindrome("abcba"));
-//        System.out.println(solution.longestPalindrome("babbbad"));
-
-        System.out.println(solution2.longestPalindrome("abcba"));
+//        System.out.println(solution2.longestPalindrome("aba"));
+//        System.out.println(solution2.longestPalindrome("abcbad"));
+        System.out.println(solution2.longestPalindrome("caeabbbfbbbaea"));
 
         long t4 = System.currentTimeMillis();
 //        new Solution2().addTwoNumbers(l1, l2);

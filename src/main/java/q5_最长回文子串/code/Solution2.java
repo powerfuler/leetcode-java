@@ -32,11 +32,10 @@ public class Solution2 {
         for (int right = 1; right < length; right++) {
             for (int left = 0; left < right; left++) {
                 //如果两种字符不相同，肯定不能构成回文子串
-                if (s.charAt(left) != s.charAt(right))
+                if (s.charAt(left) != s.charAt(right)) {
                     continue;
-
-                //下面是s.charAt(left)和s.charAt(right)两个
-                //字符相同情况下的判断
+                }
+                //下面是s.charAt(left)和s.charAt(right)两个字符相同情况下的判断
                 //如果只有一个字符，肯定是回文子串
                 if (right == left) {
                     dp[left][right] = true;
