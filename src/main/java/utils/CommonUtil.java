@@ -2,7 +2,7 @@ package utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import q2_两数相加.code.ListNode;
+import q002_两数相加.code.ListNode;
 
 public class CommonUtil {
 
