@@ -1,10 +1,9 @@
-package q8_字符串转换整数;
+package q8_字符串转换整数.code;
 
 /**
  * o(n) 重点还是判断溢出
  */
-public class Solution {
-
+public class Solution2 {
     public int myAtoi(String str) {
         str = str.trim();
         if (str.length() < 1) {
@@ -35,6 +34,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().myAtoi("2147483648"));
+        System.out.println(new Solution2().myAtoi("2147483648"));
     }
 }
