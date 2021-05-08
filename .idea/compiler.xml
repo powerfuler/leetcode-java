@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
-    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-ea -Xms2048m -Xmx2048m" />
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1024" />
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-ea -Xms1024m -Xmx2048m" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />

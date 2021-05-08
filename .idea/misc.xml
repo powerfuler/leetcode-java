@@ -19,6 +19,9 @@
   <component name="FlexCompilerConfiguration">
     <option name="HEAP_SIZE_MB" value="4096" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
