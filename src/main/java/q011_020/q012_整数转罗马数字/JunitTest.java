@@ -33,7 +33,7 @@ public class JunitTest {
         @Test
         public void test5() {
             Solution1 solution = new Solution1();
-            Assert.assertEquals("MMMDCCCXCIV", solution.intToRoman(3894));
+            Assert.assertEquals("MMCMDXCVCICIV", solution.intToRoman(3894));
         }
 
 }
