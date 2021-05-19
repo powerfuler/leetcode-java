@@ -1,23 +1,21 @@
-package q011_020.q015_1.code;
+package q011_020.q015_三数之和.code;
 
 import java.util.*;
 
 /**
  * 数组遍历 + 双指针遍历 o(n^2)
+ *
  */
-class Solution {
+class Solution2 {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> rs = new ArrayList<>();
-
         if (nums.length < 3) {
             return rs;
         }
-
         Arrays.sort(nums);
         if (nums[0] > 0) {
             return rs;
         }
-
         for (int i = 0; i < nums.length - 2; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
