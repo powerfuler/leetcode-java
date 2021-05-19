@@ -1,9 +1,9 @@
-package q011_020.q014_1.code;
+package q011_020.q014_最长公共前缀.code;
 
 /**
  * 水平扫描 o(n)
  */
-public class Solution {
+public class Solution2 {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";
@@ -29,7 +29,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        String[] s = new String[]{"c", "c"};
-        System.out.println(new Solution().longestCommonPrefix(s));
+        String[] s = new String[]{"abedef3","abcdef2222323", "abcdef3"};
+        System.out.println(new Solution2().longestCommonPrefix(s));
     }
 }
