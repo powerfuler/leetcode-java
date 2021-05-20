@@ -6,12 +6,11 @@ import java.util.Arrays;
  * q15类型题 数组遍历 + 双指针遍历 o(n^2)
  */
 
-public class Solution {
+public class Solution2 {
     public int threeSumClosest(int[] nums, int target) {
         if (nums.length < 3) {
             return 0;
         }
-
         Arrays.sort(nums);
         int rs = nums[0] + nums[1] + nums[2];
 
@@ -37,10 +36,5 @@ public class Solution {
             }
         }
         return rs;
-    }
-
-    public static void main(String[] args) {
-        int[] a = new int[]{-3, -2, -5, 3, -4};
-        System.out.println(new Solution().threeSumClosest(a, -1));
     }
 }

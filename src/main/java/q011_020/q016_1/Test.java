@@ -1,14 +1,14 @@
 package q011_020.q016_1;
 
 /*
-*/
+ */
+
+import q011_020.q016_1.code.Solution2;
 
 public class Test {
     public static void main(String[] args) {
-
-        long t1 = System.currentTimeMillis();
-//        ListNode listNode1 = new Solution2().addTwoNumbers(l2, l1);
-        long t2 = System.currentTimeMillis();
+        int[] a = new int[]{-3, -2, -5, 3, -4};
+        System.out.println(new Solution2().threeSumClosest(a, -1));
 
     }
 }
