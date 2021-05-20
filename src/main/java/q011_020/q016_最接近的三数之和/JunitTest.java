@@ -1,7 +1,7 @@
-package q011_020.q016_1;
+package q011_020.q016_最接近的三数之和;
 
 import org.junit.Test;
-import q011_020.q016_1.code.Solution1;
+import q011_020.q016_最接近的三数之和.code.Solution1;
 
 public class JunitTest {
 

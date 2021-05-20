@@ -1,9 +1,9 @@
-package q011_020.q016_1;
+package q011_020.q016_最接近的三数之和;
 
 /*
  */
 
-import q011_020.q016_1.code.Solution2;
+import q011_020.q016_最接近的三数之和.code.Solution2;
 
 public class Test {
     public static void main(String[] args) {
