@@ -1,4 +1,4 @@
-package q011_020.q020_1;
+package q1_2;
 
 import org.junit.Test;
 

@@ -1,11 +1,12 @@
-package q011_020.q020_1.code;
+package q011_020.q020_有效的括号.code;
 
 import java.util.Stack;
 
 /**
  * 利用栈 o(n)
+ *
  */
-public class Solution {
+public class Solution1 {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
@@ -32,9 +33,5 @@ public class Solution {
             }
         }
         return stack.empty();
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().isValid("()"));
     }
 }
