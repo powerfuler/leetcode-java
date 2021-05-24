@@ -1,9 +1,9 @@
-package q011_020.q019_1.code;
+package q011_020.q019_删除链表的倒数第N个节点.code;
 
 /**
  * 利用两个指针 o(n)
  */
-public class Solution {
+public class Solution1 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
