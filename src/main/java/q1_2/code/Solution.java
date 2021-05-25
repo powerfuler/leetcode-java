@@ -1,7 +1,11 @@
-package q021_030.q23_合并K个排序链表;
+package q1_2.code;
+
+import utils.ListNode;
 
 /**
- * 做k-1次mergeTwoLists  o(N*k) 可用分治法优化至o(N*log(k))) N为所有list的总节点数
+ * 做k-1次mergeTwoLists  o(N*k)
+ * 可用分治法优化至o(N*log(k)))
+ * N为所有list的总节点数
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
