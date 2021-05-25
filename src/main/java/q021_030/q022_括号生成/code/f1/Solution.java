@@ -1,4 +1,4 @@
-package q021_030.q22_括号生成.f1;
+package q021_030.q022_括号生成.code.f1;
 
 import java.util.*;
 
