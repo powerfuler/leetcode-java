@@ -10,7 +10,7 @@
  *  in the file PATENTS.  All contributing project authors may
  *  be found in the AUTHORS file in the root of the source tree.
  */
-package utils;
+package utils.encrypt;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;

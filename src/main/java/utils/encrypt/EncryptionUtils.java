@@ -1,4 +1,4 @@
-package utils;
+package utils.encrypt;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

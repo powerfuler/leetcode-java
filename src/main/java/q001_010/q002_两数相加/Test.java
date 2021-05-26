@@ -1,8 +1,8 @@
 package q002_两数相加;
 
-import q001_010.q002_两数相加.code.ListNode;
 import q001_010.q002_两数相加.code.Solution1;
 import utils.CommonUtil;
+import entity.ListNode;
 
 /*
 输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)

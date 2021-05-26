@@ -1,13 +1,22 @@
-package q1_2.code;
+package q021_030.q023_合并K个排序链表.code;
 
-import utils.ListNode;
+import entity.ListNode;
 
 /**
+ * 分而治之
+ * 链表两两合并 迭代
+ *
  * 做k-1次mergeTwoLists  o(N*k)
  * 可用分治法优化至o(N*log(k)))
  * N为所有list的总节点数
  */
-class Solution {
+class Solution2 {
+    /**
+     * 合并两条有序链表 — 迭代
+     * @param l1
+     * @param l2
+     * @return
+     */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
@@ -37,6 +46,12 @@ class Solution {
         return head.next;
     }
 
+    /**
+     * 两两合并 - 迭代
+     * 逐一合并两条链表, 时间复杂度：O(NK)
+     * @param lists
+     * @return
+     */
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) {
             return null;
@@ -50,4 +65,21 @@ class Solution {
         }
         return result;
     }
+
+    /*public ListNode mergeKLists(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+        return merge(lists, 0, lists.length - 1);
+    }
+
+    private ListNode merge(ListNode[] lists, int left, int right) {
+        if (left == right) {
+            return lists[left];
+        }
+        int mid = left + (right - left) / 2;
+        ListNode l1 = merge(lists, left, mid);
+        ListNode l2 = merge(lists, mid + 1, right);
+        return merge2Lists(l1, l2);
+    }*/
 }

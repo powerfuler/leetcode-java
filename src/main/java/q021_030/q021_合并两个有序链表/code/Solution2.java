@@ -1,6 +1,6 @@
 package q021_030.q021_合并两个有序链表.code;
 
-import utils.ListNode;
+import entity.ListNode;
 
 /**
  *

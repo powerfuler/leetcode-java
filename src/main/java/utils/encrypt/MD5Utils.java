@@ -1,5 +1,5 @@
 // @formatter:off
-package utils;
+package utils.encrypt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

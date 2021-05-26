@@ -1,8 +1,8 @@
 package q011_020.q019_删除链表的倒数第N个节点;
 
 import org.junit.Test;
-import q011_020.q019_删除链表的倒数第N个节点.code.ListNode;
 import q011_020.q019_删除链表的倒数第N个节点.code.Solution2;
+import entity.ListNode;
 
 public class JunitTest {
 

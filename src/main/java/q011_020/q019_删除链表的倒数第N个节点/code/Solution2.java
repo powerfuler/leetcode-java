@@ -1,5 +1,7 @@
 package q011_020.q019_删除链表的倒数第N个节点.code;
 
+import entity.ListNode;
+
 public class Solution2 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode index1 = head, index2 = head;

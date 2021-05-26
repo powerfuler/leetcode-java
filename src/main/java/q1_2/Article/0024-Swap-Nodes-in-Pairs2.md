@@ -34,7 +34,7 @@
 
 ### 动画描述
 
-<img src="../Animation/Animation1.gif" alt="Animation1" style="zoom:150%;" />
+<img src="../../../q1_2/Animation/Animation1.gif" alt="Animation1" style="zoom:150%;" />
 
 ### 代码实现
 
@@ -92,7 +92,7 @@ var swapPairs = function(head) {
 
 ### 动画描述
 
-<img src="../Animation/Animation2.gif" alt="Animation2" style="zoom:150%;" />
+<img src="../../../q1_2/Animation/Animation2.gif" alt="Animation2" style="zoom:150%;" />
 
 ### 代码实现
 

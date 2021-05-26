@@ -1,4 +1,4 @@
-package utils;
+package entity;
 
 public class ListNode {
     public int val;

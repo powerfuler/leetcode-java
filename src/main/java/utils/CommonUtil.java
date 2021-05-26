@@ -1,8 +1,8 @@
 package utils;
 
+import entity.ListNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import q001_010.q002_两数相加.code.ListNode;
 
 public class CommonUtil {
 
