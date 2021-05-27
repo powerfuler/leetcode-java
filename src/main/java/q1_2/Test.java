@@ -1,14 +1,16 @@
 package q1_2;
 
 /*
-*/
+ */
+
+import q1_2.code.Solution2;
 
 public class Test {
     public static void main(String[] args) {
-
-        long t1 = System.currentTimeMillis();
-//        ListNode listNode1 = new Solution2().addTwoNumbers(l2, l1);
-        long t2 = System.currentTimeMillis();
-
+        String haystack = "hello";
+        String needle = "ll";
+        String str1 = "bacbababadababacambabacaddababacasdsd";
+        String str2 = "ababaca";
+        System.out.println(new Solution2().strStr(haystack, needle));
     }
 }
