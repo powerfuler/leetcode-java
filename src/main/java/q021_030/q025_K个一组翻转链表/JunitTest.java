@@ -1,8 +1,8 @@
-package q1_3;
+package q021_030.q025_K个一组翻转链表;
 
 import entity.ListNode;
 import org.junit.Test;
-import q1_3.code.Solution1;
+import q021_030.q025_K个一组翻转链表.code.Solution1;
 
 public class JunitTest {
     @Test
@@ -18,7 +18,7 @@ public class JunitTest {
         n4.next = n5;
 
         long t1 = System.currentTimeMillis();
-        ListNode listNode = new Solution1().reverseKGroup(n1, 2);
+        ListNode listNode = new Solution1().reverseKGroup(n1, 3);
         long t2 = System.currentTimeMillis();
         System.out.println(listNode);
     }

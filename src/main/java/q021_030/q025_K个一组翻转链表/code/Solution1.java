@@ -1,4 +1,4 @@
-package q1_3.code;
+package q021_030.q025_K个一组翻转链表.code;
 
 import entity.ListNode;
 
@@ -46,7 +46,7 @@ public class Solution1 {
             //记录下要翻转链表的头节点
             ListNode start = pre.next;
             //翻转链表,pre.next指向翻转后的链表。1->2 变成2->1。 dummy->2->1
-            pre.next = reverse(start);
+            pre.next = reverse1(start);
             //翻转后头节点变到最后。通过.next把断开的链表重新链接。
             start.next = next;
             //将pre换成下次要翻转的链表的头结点的上一个节点。即start
@@ -71,11 +71,33 @@ public class Solution1 {
         //下一个节点指针
         ListNode nextNode = null;
         while (curNode != null) {
-            nextNode = curNode.next;//nextNode 指向下一个节点,保存当前节点后面的链表。
-            curNode.next = preNode;//将当前节点next域指向前一个节点   null<-1<-2<-3<-4
-            preNode = curNode;//preNode 指针向后移动。preNode指向当前节点。
-            curNode = nextNode;//curNode指针向后移动。下一个节点变成当前节点
+            //nextNode 指向下一个节点,保存当前节点后面的链表。
+            nextNode = curNode.next;
+            //将当前节点next域指向前一个节点   null<-1<-2<-3<-4
+            curNode.next = preNode;
+            //preNode 指针向后移动。preNode指向当前节点。
+            preNode = curNode;
+            //curNode指针向后移动。下一个节点变成当前节点
+            curNode = nextNode;
         }
         return preNode;
+    }
+
+    private ListNode reverse1(ListNode head) {
+        ListNode newLink = null;
+        ListNode curr = head;
+        //每次循环：处理当前节点，使其指向新链表，curr指针后移；
+        // 未处理链表和新链表没有直接关系，但循环直到未处理链表为空
+        while (curr != null) {
+            //保存未处理的
+            ListNode unReversed = curr.next;
+            //当前节点指向新链表
+            curr.next = newLink;
+            //保存
+            newLink = curr;
+            //未处理链表作为当前节点
+            curr = unReversed;
+        }
+        return newLink;
     }
 }
