@@ -1,4 +1,4 @@
-package q1_2;
+package q021_030.q026_删除排序数组中的重复项;
 
 import org.junit.Test;
 
