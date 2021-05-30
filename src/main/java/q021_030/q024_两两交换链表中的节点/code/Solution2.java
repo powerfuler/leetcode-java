@@ -1,6 +1,6 @@
 package q021_030.q024_两两交换链表中的节点.code;
 
-import entity.ListNode;
+import utils.entity.ListNode;
 
 public class Solution2 {
     public ListNode swapPairs(ListNode head) {

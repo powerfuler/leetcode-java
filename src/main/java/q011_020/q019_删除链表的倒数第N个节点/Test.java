@@ -4,7 +4,7 @@ package q011_020.q019_删除链表的倒数第N个节点;
  */
 
 import q011_020.q019_删除链表的倒数第N个节点.code.Solution1;
-import entity.ListNode;
+import utils.entity.ListNode;
 
 public class Test {
     public static void main(String[] args) {

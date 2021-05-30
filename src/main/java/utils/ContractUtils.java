@@ -1,6 +1,6 @@
 package utils;
 
-import entity.PeriodExpression;
+import utils.entity.PeriodExpression;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

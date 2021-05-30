@@ -1,6 +1,6 @@
 package q011_020.q019_删除链表的倒数第N个节点.code;
 
-import entity.ListNode;
+import utils.entity.ListNode;
 
 /**
  * 利用两个指针 o(n)

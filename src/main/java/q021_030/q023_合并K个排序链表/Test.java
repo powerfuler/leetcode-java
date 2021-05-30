@@ -3,7 +3,7 @@ package q021_030.q023_合并K个排序链表;
 /*
  */
 
-import entity.ListNode;
+import utils.entity.ListNode;
 import q021_030.q023_合并K个排序链表.code.Solution4;
 
 public class Test {

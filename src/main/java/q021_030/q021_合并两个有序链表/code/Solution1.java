@@ -1,6 +1,6 @@
 package q021_030.q021_合并两个有序链表.code;
 
-import entity.ListNode;
+import utils.entity.ListNode;
 
 /**
  * 递归（看成两个链表头部较小的一个与剩下元素的 merge 操作结果合并） o(n)

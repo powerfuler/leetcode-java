@@ -1,6 +1,6 @@
 package q021_030.q023_合并K个排序链表.code;
 
-import entity.ListNode;
+import utils.entity.ListNode;
 
 public class Solution4 {
     public ListNode mergeKLists(ListNode[] lists) {

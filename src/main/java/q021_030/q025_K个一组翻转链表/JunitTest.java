@@ -1,6 +1,6 @@
 package q021_030.q025_K个一组翻转链表;
 
-import entity.ListNode;
+import utils.entity.ListNode;
 import org.junit.Test;
 import q021_030.q025_K个一组翻转链表.code.Solution1;
 

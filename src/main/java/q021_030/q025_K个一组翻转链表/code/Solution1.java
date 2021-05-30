@@ -1,6 +1,6 @@
 package q021_030.q025_K个一组翻转链表.code;
 
-import entity.ListNode;
+import utils.entity.ListNode;
 
 /**
  * 步骤分解:

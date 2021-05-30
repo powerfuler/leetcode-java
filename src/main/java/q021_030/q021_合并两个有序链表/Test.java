@@ -5,7 +5,7 @@ package q021_030.q021_合并两个有序链表;
 
 
 import q021_030.q021_合并两个有序链表.code.Solution1;
-import entity.ListNode;
+import utils.entity.ListNode;
 
 public class Test {
     public static void main(String[] args) {

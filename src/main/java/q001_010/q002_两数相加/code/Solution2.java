@@ -1,6 +1,6 @@
 package q001_010.q002_两数相加.code;
 
-import entity.ListNode;
+import utils.structure.ListNode;
 
 /**
  * 递归

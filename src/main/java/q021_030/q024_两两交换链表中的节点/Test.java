@@ -3,7 +3,7 @@ package q021_030.q024_两两交换链表中的节点;
 /*
 */
 
-import entity.ListNode;
+import utils.entity.ListNode;
 import q021_030.q024_两两交换链表中的节点.code.Solution0;
 
 public class Test {
