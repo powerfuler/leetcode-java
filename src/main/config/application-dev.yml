@@ -1,0 +1,14 @@
+env: DEV
+app:
+  id: propertymgr
+apollo:
+  meta: http://configcenter-dev.zuolin.com
+  cluster: wuyedev2
+  authToken: eh#1802
+  bootstrap:
+    enabled: true
+    namespaces: env,application
+
+data:
+  initialize:
+    flag: false

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <loginServer>http://pass.hust.edu.cn/cas</loginServer>
+    <validateServer>http://pass.hust.edu.cn/cas</validateServer>
+    <serverName>wty-park.hust.edu.cn</serverName >
+    <notForceAuthUrls>
+        <url-pattern>\.js$</url-pattern>
+        <url-pattern>\.xsl$</url-pattern>
+        <url-pattern>\.xml$</url-pattern>
+        <url-pattern>\.gif$</url-pattern>
+        <url-pattern>\.jpg$</url-pattern>
+        <url-pattern>\.bmp$</url-pattern>
+        <url-pattern>\.css$</url-pattern>
+        <url-pattern>\.swf$</url-pattern>
+        <url-pattern>\.htm$</url-pattern>
+        <url-pattern>\.html$</url-pattern>
+    </notForceAuthUrls>
+</config>

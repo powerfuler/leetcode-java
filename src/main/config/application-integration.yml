@@ -1,0 +1,109 @@
+spring:
+  application:
+    name: propertymgr
+
+server:
+  port: 8480
+  servlet:
+    context-path: /propertymgr
+  tomcat:
+    max-threads: 200
+
+#db:
+#  jdbc-url: jdbc:hsqldb:mem:testdb # 10.1.120.99:13319
+#  jdbc-url: jdbc:hsqldb:hsql://localhost/ehpropertymgr;sql.syntax_mys=true
+#  driver-class-name: org.hsqldb.jdbcDriver
+#  username: sa
+#  password:
+
+
+db:
+  jdbc-url: jdbc:mysql://10.1.120.104:13373/UTtest?useTimezone=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&encrypted=0
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  username: root
+  password: 123456
+  encrypted: false
+  pool:
+    minimumIdle: 10
+
+redis:
+  cache:
+    url: redis://10.1.120.73:6379
+    pool:
+      max-active: 100
+      max-wait: 60s
+      min-idle: 10
+  store:
+    url: redis://10.1.120.73:6380
+    pool:
+      max-active: 100
+      max-wait: 60s
+      min-idle: 10
+
+eureka:
+  client:
+    enabled: true
+    registryFetchIntervalSeconds: 10 # 多长时间从注册中心获取最新的数据
+    service-url:
+      defaultZone: http://10.1.120.73:8880/eureka/ #http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    leaseRenewalIntervalInSeconds: 10 # 心跳间隔
+    leaseExpirationDurationInSeconds: 15 # 超过这个时间没有收到心跳则剔除我
+
+ribbon:
+  ServerListRefreshInterval: 2 # ribbon 的本地缓存过期时间, 秒
+
+# sdk support
+eurekacli:
+  enabledSdk: true
+  service-url: http://10.1.120.73:8880/eureka/
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+
+zk:
+  zkUrl: 10.1.120.200:2181 # ZK_SERVER_LIST from system env; 10.1.120.105:2181
+  sessionTimeout: 60000
+
+spring.kafka:
+  enabled: true
+  bootstrap-servers: 10.1.120.200:19092 # localhost:9092
+  properties:
+    request.timeout.ms: 20000
+  producer:
+    retries: 0
+    batch-size: 16384
+    buffer-memory: 33554432
+    key-serializer: org.apache.kafka.common.serialization.StringSerializer
+    value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  consumer:
+    group-id: ${spring.application.name}-group-xq
+    auto-offset-reset: earliest
+    enable-auto-commit: true
+    auto-commit-interval: 100s
+    key-serializer: org.apache.kafka.common.serialization.StringSerializer
+    value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+elastic:
+  index: everhomesv3
+  nodes:
+    hosts: 10.1.120.73
+    ports: 9300
+    httpports: 9200
+
+scheduler:
+  pool:
+    size: 100
+
+equipment:
+  ip: 127.0.0.1
+
+data:
+  initialize:
+    flag: false
