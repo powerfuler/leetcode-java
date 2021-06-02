@@ -1,9 +1,9 @@
-package 分治法.q34_在排序数组中查找元素的第一个和最后一个位置;
+package q031_040.q034_在排序数组中查找元素的第一个和最后一个位置.code;
 
 /**
  * 二分法 o(log(n))
  */
-public class Solution {
+public class Solution3 {
 
     public int[] searchRange(int[] nums, int target) {
         if (nums == null || nums.length < 1) {
@@ -55,6 +55,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        new Solution().searchRange(new int[]{2, 2}, 2);
+        new Solution3().searchRange(new int[]{2, 2}, 2);
     }
 }

@@ -11,7 +11,5 @@ public class JunitTest {
 //        new Solution2().addTwoNumbers(l1, l2);
         long t5 = System.currentTimeMillis();
 
-//        CommonUtil.print(listNode);
     }
-
 }
