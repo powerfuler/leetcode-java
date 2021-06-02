@@ -1,9 +1,9 @@
-package q031_040.q033_搜索旋转排序数组;
+package q031_040.q033_搜索旋转排序数组.code;
 
 /**
  * 循环有序数组查找 二分法o(log(n))
  */
-class Solution {
+class Solution3 {
     public int search(int[] nums, int target) {
         return search(nums, 0, nums.length - 1, target);
     }
