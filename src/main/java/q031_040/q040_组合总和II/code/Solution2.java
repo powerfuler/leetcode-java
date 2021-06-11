@@ -1,11 +1,11 @@
-package 回溯法.q40_组合总和2;
+package q031_040.q040_组合总和II.code;
 
 import java.util.*;
 
 /**
  * 回溯法 O(n*log(n))
  */
-class Solution {
+public class Solution2 {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
@@ -34,9 +34,5 @@ class Solution {
                 set.add(candidates[i]);
             }
         }
-    }
-
-    public static void main(String[] args) {
-        new Solution().combinationSum2(new int[]{10, 1, 2, 7, 6, 1, 5}, 8);
     }
 }

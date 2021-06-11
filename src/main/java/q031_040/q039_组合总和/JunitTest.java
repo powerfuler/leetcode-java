@@ -1,4 +1,4 @@
-package q01_2;
+package q031_040.q039_组合总和;
 
 import org.junit.Test;
 
