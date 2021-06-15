@@ -8,7 +8,7 @@ import utils.structure.ListNode;
 
 public class Test {
     public static void main(String[] args) {
-        ListNode l1 = ListNode.createTestData("[2,4,3,4]");
+        ListNode l1 = ListNode.createTestData("[2,4,3,4,2]");
         long t1 = System.currentTimeMillis();
         boolean palindrome = new Solution1().isPalindrome(l1);
         long t2 = System.currentTimeMillis();
