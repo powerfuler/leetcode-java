@@ -1,6 +1,6 @@
 package company.bytedance.q025_1.code;
 
-import utils.entity.ListNode;
+import utils.structure.ListNode;
 
 /**
  * 步骤分解:
