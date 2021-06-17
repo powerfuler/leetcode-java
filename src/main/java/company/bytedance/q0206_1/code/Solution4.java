@@ -1,10 +1,11 @@
-package 链表操作.q206_反转链表.f2;
+package company.bytedance.q0206_1.code;
+
+import utils.structure.ListNode;
 
 /**
  * 递归法 o(n)
  */
-class Solution {
-
+class Solution4 {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
