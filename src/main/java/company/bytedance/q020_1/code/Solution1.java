@@ -1,10 +1,9 @@
-package q011_020.q020_有效的括号.code;
+package company.bytedance.q020_1.code;
 
 import java.util.Stack;
 
 /**
  * 利用栈 o(n)
- * 左括号入栈，右括号出栈，出栈比较
  *
  */
 public class Solution1 {
