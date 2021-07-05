@@ -27,7 +27,7 @@ public class Solution1 {
         int rightMax = Math.max(0, helper(root.right));
 
         maximum = Math.max(root.val + leftMax + rightMax, maximum);
-
+        // 返回最大的路径
         return Math.max(leftMax + root.val, rightMax + root.val);
     }
 }
