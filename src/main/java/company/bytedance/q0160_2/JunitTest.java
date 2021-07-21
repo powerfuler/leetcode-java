@@ -1,4 +1,4 @@
-package q01_1;
+package company.bytedance.q0160_2;
 
 import org.junit.Test;
 

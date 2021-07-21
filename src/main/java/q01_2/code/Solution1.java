@@ -1,4 +1,4 @@
-package q01_1.code;
+package q01_2.code;
 
 /**
  *
