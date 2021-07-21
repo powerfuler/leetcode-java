@@ -30,7 +30,7 @@ pB按新拼接的链表{6,3,4,1,2,3,4}遍历
 
 ##动画理解
 
-![](../Animation/Animation.gif)
+![](../../Animation/Animation.gif)
 
 ##代码实现
 ```
