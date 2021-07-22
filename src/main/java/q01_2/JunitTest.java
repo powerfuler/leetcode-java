@@ -1,17 +1,20 @@
 package q01_2;
 
 import org.junit.Test;
+import utils.structure.ListNode;
 import utils.structure.TreeNode;
 
 public class JunitTest {
 
     @Test
     public void test0() {
+        ListNode a= ListNode.createTestData("[4,1,8,4,5]");
         TreeNode treeNode = TreeNode.createTestData("[5]");
 
         long t4 = System.currentTimeMillis();
-//        new Solution2().addTwoNumbers(l1, l2);
+//        ListNode intersectionNode = new Solution1().getIntersectionNode(l1, l2);
         long t5 = System.currentTimeMillis();
+//        ListNode.print(intersectionNode);
 
     }
 }
