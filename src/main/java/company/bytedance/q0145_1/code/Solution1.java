@@ -1,4 +1,6 @@
-package company.bytedance.q145_二叉树的后序遍历;
+package company.bytedance.q0145_1.code;
+
+import utils.structure.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,8 +8,10 @@ import java.util.Stack;
 
 /**
  * 非递归法 o(n)
+ *
  */
-public class Solution {
+public class Solution1 {
+
     public List<Integer> postorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         LinkedList<Integer> rs = new LinkedList<>();
