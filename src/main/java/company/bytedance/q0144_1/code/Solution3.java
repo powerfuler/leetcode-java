@@ -1,4 +1,7 @@
-package 树的遍历.q144_二叉树的前序遍历;
+package company.bytedance.q0144_1.code;
+
+
+import utils.structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +10,7 @@ import java.util.Stack;
 /**
  * 非递归法 o(n)
  */
-public class Solution {
+public class Solution3 {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> rs = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -29,6 +32,6 @@ public class Solution {
         root.right = t1;
         TreeNode t2 = new TreeNode(3);
         t1.left = t2;
-        new Solution().preorderTraversal(root);
+        new Solution3().preorderTraversal(root);
     }
 }

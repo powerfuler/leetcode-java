@@ -1,4 +1,4 @@
-package 树的遍历.q145_二叉树的后序遍历;
+package company.bytedance.q145_二叉树的后序遍历;
 
 import java.util.LinkedList;
 import java.util.List;
