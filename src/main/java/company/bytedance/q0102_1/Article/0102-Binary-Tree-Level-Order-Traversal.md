@@ -1,9 +1,5 @@
 # LeetCode 第 102 号问题：二叉树的层序遍历
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
 题目来源于 LeetCode 上第 102 号问题：二叉树的层序遍历。题目难度为 Medium，目前通过率为 55.8% 。
 
 ### 题目描述
