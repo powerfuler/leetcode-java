@@ -1,10 +1,4 @@
-# LeetCode 第 142 号问题：环形链表 II 
-
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
-今天分享的题目来源于 LeetCode 上第 142 号问题：环形链表II。题目难度为 Medium 。
+# LeetCode 第 142 号问题：环形链表 II
 
 ### 题目描述
 

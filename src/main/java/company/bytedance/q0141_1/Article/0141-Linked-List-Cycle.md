@@ -1,9 +1,5 @@
 # 使用快慢指针求解「环形链表」so easy！
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
 今天分享的题目来源于 LeetCode 上第 141 号问题：环形链表。题目难度为 Easy，目前通过率为 40.4% 。
 
 使用快慢指针的方式去求解 **so easy** ！
