@@ -1,4 +1,4 @@
-package company.bytedance.q0169_2.code;
+package company.bytedance.q0169_1.code;
 
 /**
  * ## 解法一：暴力解法

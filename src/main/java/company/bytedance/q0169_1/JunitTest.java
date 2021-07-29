@@ -1,6 +1,6 @@
-package company.bytedance.q0169_2;
+package company.bytedance.q0169_1;
 
-import company.bytedance.q0169_2.code.Solution2;
+import company.bytedance.q0169_1.code.Solution2;
 import org.junit.Test;
 
 public class JunitTest {

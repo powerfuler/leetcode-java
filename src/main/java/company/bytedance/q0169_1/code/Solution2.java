@@ -1,4 +1,4 @@
-package company.bytedance.q0169_2.code;
+package company.bytedance.q0169_1.code;
 
 import java.util.HashMap;
 import java.util.Map;
