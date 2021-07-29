@@ -1,9 +1,5 @@
 # 【数组中超过一半的数字】三种解法，最后一个解法太牛逼了！
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
 今天分享的题目来源于 LeetCode 上第 169 号问题：求众数（求数组中超过一半的数字）。题目难度为 Easy，目前通过率为 45.8% 。
 
 最后一种解法 **Cool** ！！！
@@ -45,7 +41,7 @@
 ### **代码实现**
 
 ```java
-class Solution {
+class Solution3 {
     public int majorityElement(int[] nums) {
         int majorityCount = nums.length/2;
 
@@ -88,7 +84,7 @@ class Solution {
 ### 代码实现
 
 ```java
-class Solution {
+class Solution2 {
     public int majorityElement(int[] nums) {
     Map<Integer, Integer> map = new HashMap<>();
     // maxNum 表示元素，maxCount 表示元素出现的次数
