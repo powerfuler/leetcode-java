@@ -1,9 +1,10 @@
-package q041_050.q043_2.code;
+package q041_050.q043_1.code;
 
 /**
- * o(n) 可基于乘数某位与被乘数某位相乘产生结果的位置的规律优化
+ * o(n)
+ * 可基于乘数某位与被乘数某位相乘产生结果的位置的规律优化
  */
-class Solution {
+public class Solution2 {
 
     public String multiply(String num1, String num2) {
         if (num1.equals("0") || num2.equals("0")) {
