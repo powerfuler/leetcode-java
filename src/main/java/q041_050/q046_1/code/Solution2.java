@@ -1,4 +1,4 @@
-package 回溯法.q46_全排列.f1;
+package q041_050.q046_1.code;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 插队法 o((n-1)!+(n-2)!+···+2!+1!)
  */
-public class Solution {
+public class Solution2 {
     public List<List<Integer>> fc(List<List<Integer>> nums, int c) {
         List<List<Integer>> result = new ArrayList<>();
         for (int i = 0; i < nums.size(); i++) {
@@ -35,7 +35,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        new Solution().permute(new int[]{1, 2, 3});
+        new Solution2().permute(new int[]{1, 2, 3});
         //4—>3！+2！+1！
     }
 }
