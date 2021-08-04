@@ -1,7 +1,5 @@
 package q041_050.q050_1.code;
 
-import awesome.blankj.medium._0050.Solution;
-
 /**
  *
  *
@@ -26,7 +24,7 @@ public class Solution1 {
     }
 
     public static void main(String[] args) {
-        awesome.blankj.medium._0050.Solution solution = new Solution();
+        Solution solution = new Solution();
         System.out.println(solution.myPow(2, 4));
     }
 }
