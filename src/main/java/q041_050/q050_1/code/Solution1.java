@@ -1,14 +1,12 @@
-package awesome.blankj.medium._0050;
+package q041_050.q050_1.code;
+
+import awesome.blankj.medium._0050.Solution;
 
 /**
- * <pre>
- *     author: Blankj
- *     blog  : http://blankj.com
- *     time  : 2017/10/18
- *     desc  :
- * </pre>
+ *
+ *
  */
-public class Solution {
+public class Solution1 {
     public double myPow(double x, int n) {
         if (n < 0)
             return helper(1 / x, -n);
@@ -28,7 +26,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        awesome.blankj.medium._0050.Solution solution = new Solution();
         System.out.println(solution.myPow(2, 4));
     }
 }
