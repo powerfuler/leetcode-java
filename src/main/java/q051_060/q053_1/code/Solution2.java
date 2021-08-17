@@ -1,10 +1,10 @@
-package q051_060.q053_2.code;
+package q051_060.q053_1.code;
 
 /**
  *贪心法 遍历一次 o(n)
  *
  */
-public class Solution1 {
+public class Solution2 {
     public int maxSubArray(int[] nums) {
         if (nums.length == 1) {
             return nums[0];

@@ -1,7 +1,7 @@
-package q051_060.q053_2;
+package q051_060.q053_1;
 
 import org.junit.Test;
-import q051_060.q053_2.code.Solution1;
+import q051_060.q053_1.code.Solution1;
 
 public class JunitTest {
 
