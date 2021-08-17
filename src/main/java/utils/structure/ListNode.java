@@ -13,6 +13,10 @@ public class ListNode {
         val = x;
     }
 
+    public ListNode(int val, ListNode next) {
+        this.val = val; this.next = next;
+    }
+
     /**
      * 创建测试数据
      * @param data [XX,XX,XX]

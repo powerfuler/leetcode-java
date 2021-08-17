@@ -1,4 +1,7 @@
-package q061_070.q061_2.q61_旋转链表;
+package q061_070.q061_1.code;
+
+
+import utils.structure.ListNode;
 
 /**
  * 先连接成环再找断点 o(n)
