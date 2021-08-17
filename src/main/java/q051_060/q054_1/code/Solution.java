@@ -1,4 +1,4 @@
-package q051_060.q054_2.q54_螺旋矩阵;
+package q051_060.q054_1.code;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,6 +67,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().spiralOrder(new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));
+        System.out.println(new Solution().spiralOrder(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}));
     }
 }
