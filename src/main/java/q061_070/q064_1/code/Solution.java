@@ -1,4 +1,4 @@
-package q061_070.q064_2.q64_最小路径和;
+package q061_070.q064_1.code;
 
 /**
  * 动态规划 dp(j)=grid(i,j)+min(dp(j),dp(j+1)) o(m*n)
