@@ -1,10 +1,11 @@
-package q061_070.q070_2.q70_爬楼梯;
+package q061_070.q070_1.code;
 
 /**
- * 动态规划 dp[i]表示到达第i阶的方法总数dp[i]=dp[i−1]+dp[i−2] o(n)
+ * 动态规划 dp[i]表示到达第i阶的方法总数dp[i]=dp[i−1]+dp[i−2]
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  */
 public class Solution {
-
     public int climbStairs(int n) {
         if (n == 1) {
             return 1;
@@ -16,5 +17,10 @@ public class Solution {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
         return dp[n];
+    }
+
+    public static void main(String[] args) {
+        int i = new Solution().climbStairs(6);
+        System.out.println(i);
     }
 }
