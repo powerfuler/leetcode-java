@@ -1,9 +1,9 @@
-package q071_080.q73_矩阵置零;
+package q071_080.q073_1.code;
 
 /**
  * 用每行和每列的第一个元素作为标记，空间复杂度是o(1)，时间复杂度 o(m*n)
  */
-public class Solution {
+public class Solution1 {
 
     public void setZeroes(int[][] matrix) {
         //第一行是否需要置零
