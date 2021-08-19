@@ -1,4 +1,4 @@
-package q071_080.q078_2.q78_子集;
+package q071_080.q078_2.code;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,6 @@ import java.util.List;
  * 向子集中添加子集合 o(n*2^n)
  */
 public class Solution {
-
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         result.add(new ArrayList<>());
@@ -20,5 +19,11 @@ public class Solution {
             }
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{1, 2, 3};
+        List<List<Integer>> subsets = new Solution().subsets(nums);
+        System.out.println(subsets);
     }
 }
