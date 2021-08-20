@@ -1,4 +1,4 @@
-package q071_080.q078_2.code;
+package q071_080.q078_1.code;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3};
+        int[] nums = new int[]{1, 2, 3, 4};
         List<List<Integer>> subsets = new Solution().subsets(nums);
         System.out.println(subsets);
     }
