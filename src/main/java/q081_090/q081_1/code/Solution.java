@@ -1,5 +1,10 @@
 package q081_090.q081_1.code;
 
+/**
+ * 1、恢复二段性，去掉尾部与nums[0]相等的元素
+ * 2、找到旋转点， 开始节点到转折点一个段，转折点+1 到结束是第二段
+ * 3、找目标值
+ */
 public class Solution {
     public boolean search(int[] nums, int t) {
         int n = nums.length;
