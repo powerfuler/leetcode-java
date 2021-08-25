@@ -1,8 +1,8 @@
 package q081_090.q088_1.code;
 
 /**
- * * 时间复杂度：$O(m + n)$
- * * 空间复杂度：$O(1)$
+ *  时间复杂度：$O(m + n)$
+ *  空间复杂度：$O(1)$
  *
  * 将遍历方向调整为「从后往前」即可做到 $O(1)$ 空间复杂度。
  */
@@ -19,5 +19,14 @@ public class Solution {
                 nums1[idx--] = nums2[j--];
             }
         }
+    }
+
+    public static void main(String[] args) {
+        int[] nums1 = {1, 2, 3, 0, 0, 0};
+        int m = 3;
+        int[] nums2 = {2, 5, 6};
+        int n = 3;
+        new Solution().merge(nums1, m, nums2, n);
+        System.out.println(nums1.toString());
     }
 }
