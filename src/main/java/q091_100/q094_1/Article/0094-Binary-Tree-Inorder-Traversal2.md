@@ -1,11 +1,5 @@
 ## LeetCode 第 94 号问题：二叉树的中序遍历
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
-题目来源于 LeetCode 上第 94 号问题：二叉树的中序遍历。题目难度为 Medium
-
 ### 题目描述
 
 给定一个二叉树，返回它的 **中序** 遍历.
@@ -76,7 +70,7 @@ function handle(root, res) {
 
 ##### 动画理解
 
-<img src="../Animation/Animation2.gif" alt="Animation2" style="zoom:150%;" />
+<img src="../../Animation/Animation2.gif" alt="Animation2" style="zoom:150%;" />
 
 ##### 参考代码
 
