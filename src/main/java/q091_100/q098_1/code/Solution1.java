@@ -1,12 +1,16 @@
-package q091_100.q098_2.q98_验证二叉搜索树.f1;
+package q091_100.q098_1.code;
+
+import utils.structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 递归的中序遍历（二叉搜索树的中序遍历是有序的）o(n)
+ * 递归的中序遍历 o(n)
+ * （二叉搜索树的中序遍历是有序的）
+ *
  */
-public class Solution {
+public class Solution1 {
 
     List<Integer> rs = new ArrayList<>();
 
@@ -26,6 +30,7 @@ public class Solution {
             return true;
         }
         int a = rs.get(0);
+        // 后一个元素要比前一个元素大，有序
         for (int i = 1; i < rs.size(); i++) {
             if (rs.get(i) <= a) {
                 return false;
@@ -36,15 +41,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(5);
-        TreeNode n1 = new TreeNode(1);
-        TreeNode n2 = new TreeNode(4);
-        root.left = n1;
-        root.right = n2;
-        TreeNode n3 = new TreeNode(3);
-        TreeNode n4 = new TreeNode(6);
-        n2.left = n3;
-        n2.right = n4;
-        System.out.println(new Solution().isValidBST(root));
+//        TreeNode treeNode = TreeNode.createTestData("[5,1,4,null,null,3,6]");
+        TreeNode treeNode = TreeNode.createTestData("[4,1,6,null,3,5,null]");
+        System.out.println(new Solution1().isValidBST(treeNode));
     }
 }

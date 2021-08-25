@@ -1,4 +1,6 @@
-package q091_100.q098_2.q98_验证二叉搜索树.f3;
+package q091_100.q098_1.code;
+
+import utils.structure.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -6,7 +8,7 @@ import java.util.Queue;
 /**
  * 层序遍历迭代法判断上下界 o(n)
  */
-public class Solution {
+public class Solution3 {
     public boolean isValidBST(TreeNode root) {
         if (root == null) {
             return true;
@@ -53,6 +55,6 @@ public class Solution {
         TreeNode n4 = new TreeNode(20);
         n2.left = n3;
         n2.right = n4;
-        System.out.println(new Solution().isValidBST(root));
+        System.out.println(new Solution3().isValidBST(root));
     }
 }

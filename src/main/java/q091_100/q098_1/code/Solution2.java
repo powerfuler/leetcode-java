@@ -1,9 +1,11 @@
-package q091_100.q098_2.q98_验证二叉搜索树.f2;
+package q091_100.q098_1.code;
+
+import utils.structure.TreeNode;
 
 /**
  * 寻找上下界递归 o(n)
  */
-public class Solution {
+public class Solution2 {
     public boolean valid(TreeNode root, Integer min, Integer max) {
         if (root == null) {
             return true;
@@ -28,5 +30,11 @@ public class Solution {
 
     public boolean isValidBST(TreeNode root) {
         return valid(root, null, null);
+    }
+
+    public static void main(String[] args) {
+//        TreeNode treeNode = TreeNode.createTestData("[5,1,4,null,null,3,6]");
+        TreeNode treeNode = TreeNode.createTestData("[4,1,6,null,3,5,null]");
+        System.out.println(new Solution2().isValidBST(treeNode));
     }
 }
