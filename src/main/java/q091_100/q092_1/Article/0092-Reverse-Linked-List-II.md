@@ -1,11 +1,5 @@
 # LeetCode 第 92 号问题：反转链表 II
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
-题目来源于 LeetCode 上第 92 号问题：反转链表 II。题目难度为 Medium，目前通过率为 43.8% 。
-
 ### 题目描述
 
 反转从位置 *m* 到 *n* 的链表。请使用一趟扫描完成反转。
@@ -45,7 +39,7 @@
 ### 代码实现
 
 ```
-class Solution {
+class Solution2 {
 public:
     ListNode *reverseBetween(ListNode *head, int m, int n) {
         ListNode *dummy = new ListNode(-1);
