@@ -1,4 +1,4 @@
-package q091_100.q0100_2;
+package q091_100.q0100_1;
 
 import org.junit.Test;
 import utils.structure.ListNode;
