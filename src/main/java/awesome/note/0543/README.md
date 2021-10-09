@@ -36,7 +36,7 @@ Return **3**, which is the length of the path [4,2,1,3] or [5,2,1,3].
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     int max = 0;
 
     public int diameterOfBinaryTree(TreeNode root) {

@@ -28,7 +28,7 @@
 这道题最直接的方法就是不停的去除以  4 ，看最终结果是否为 1 ，参见代码如下：
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isPowerOfFour(int num) {
          while ( (num != 0)  && (num % 4 == 0)) {
             num /= 4;
@@ -90,7 +90,7 @@ class Solution {
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isPowerOfFour(int num) {
         if (num <= 0)
 			return false;

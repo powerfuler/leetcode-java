@@ -45,7 +45,7 @@
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
     public List<Integer> preorderTraversal(TreeNode root) {
         //非递归前序遍历，需要借助栈
         Stack<TreeNode> stack = new Stack<>();

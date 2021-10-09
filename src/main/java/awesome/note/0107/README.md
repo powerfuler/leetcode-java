@@ -43,7 +43,7 @@ return its bottom-up level order traversal as:
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         if (root == null) return Collections.emptyList();
         List<List<Integer>> list = new LinkedList<>();
@@ -79,7 +79,7 @@ class Solution {
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> list = new LinkedList<>();
         helper(list, root, 0);

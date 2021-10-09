@@ -73,7 +73,7 @@
 ### 代码实现
 
 ```c++
-class Solution {
+class Solution3 {
 public:
     int hammingWeight(uint32_t n) {
         int cnt = 0;

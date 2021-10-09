@@ -50,7 +50,7 @@
 
 ```
 
-public class Solution {
+public class Solution3 {
     public List<String> removeInvalidParentheses(String s) {
         queue.offer(s);
         vis.add(s);

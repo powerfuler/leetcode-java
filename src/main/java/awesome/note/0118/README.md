@@ -29,7 +29,7 @@ Output:
 题意是给出行数，输出帕斯卡尔三角形，很简单的模拟，就不多说了。
 
 ```java
-class Solution {
+class Solution3 {
     public List<List<Integer>> generate(int numRows) {
         if (numRows == 0) return Collections.emptyList();
         List<List<Integer>> list = new ArrayList<>();

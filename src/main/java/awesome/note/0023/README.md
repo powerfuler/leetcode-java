@@ -32,7 +32,7 @@ Output: 1->1->2->3->4->4->5->6
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) return null;
         return helper(lists, 0, lists.length - 1);
@@ -77,7 +77,7 @@ class Solution {
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) return null;
         PriorityQueue<ListNode> queue = new PriorityQueue<>(lists.length, new Comparator<ListNode>() {

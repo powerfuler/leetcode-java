@@ -104,7 +104,7 @@
 所以代码如下：
 
 ```java
-class Solution {
+class Solution3 {
     public boolean stoneGame(int[] piles) {
         return true;
     }

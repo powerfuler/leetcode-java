@@ -66,7 +66,7 @@ pre        next
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || k == 1) return head;
         ListNode node = new ListNode(0), pre = node;

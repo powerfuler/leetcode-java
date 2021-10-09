@@ -58,7 +58,7 @@
 C++ 代码：
 
 ```C++
-class Solution {
+class Solution3 {
 public:
     int maxAreaOfIsland(vector<vector<int>>& grid) {
         int res = 0;
@@ -99,7 +99,7 @@ public:
 Java 代码：
 
 ```Java
-class Solution {
+class Solution3 {
     public int maxAreaOfIsland(int[][] grid) {
         int res = 0;
         for (int r = 0; r < grid.length; r++) {
@@ -139,7 +139,7 @@ class Solution {
 Python 代码：
 
 ```Python
-class Solution:
+class Solution3:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         res = 0
         for r in range(len(grid)):

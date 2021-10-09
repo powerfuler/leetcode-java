@@ -36,7 +36,7 @@ Could you do this in one pass?
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode pre = head;
         ListNode afterPreN = head;

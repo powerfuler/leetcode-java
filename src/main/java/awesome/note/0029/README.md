@@ -42,7 +42,7 @@ Output: -2
 最终，我们对结果赋予符号位即可，根据以上思路来书写如下代码应该不是难事了吧。
 
 ```java
-class Solution {
+class Solution3 {
     public int divide(int dividend, int divisor) {
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;

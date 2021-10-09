@@ -44,7 +44,7 @@ Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-class Solution {
+class Solution3 {
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         if (intervals.isEmpty()) return Collections.singletonList(newInterval);
         List<Interval> ans = new ArrayList<>();

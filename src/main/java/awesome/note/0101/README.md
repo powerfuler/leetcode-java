@@ -45,7 +45,7 @@ Bonus points if you could solve it both recursively and iteratively.
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public boolean isSymmetric(TreeNode root) {
         return root == null || helper(root.left, root.right);
     }
@@ -72,7 +72,7 @@ class Solution {
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
      public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
         LinkedList<TreeNode> q = new LinkedList<>();

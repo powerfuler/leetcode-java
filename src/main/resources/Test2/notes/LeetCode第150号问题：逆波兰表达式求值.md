@@ -64,7 +64,7 @@
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
 public:
     int evalRPN(vector<string>& tokens) {
 

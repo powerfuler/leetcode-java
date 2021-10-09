@@ -34,7 +34,7 @@ Tags:** Two Pointers, String
 题意是从主串中找到子串的索引，如果找不到则返回-1，当子串长度大于主串，直接返回-1，然后我们只需要遍历比较即可。
 
 ```java
-class Solution {
+class Solution3 {
     public int strStr(String haystack, String needle) {
         int l1 = haystack.length(), l2 = needle.length();
         if (l1 < l2) return -1;

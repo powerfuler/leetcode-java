@@ -21,7 +21,7 @@ Note: You may not slant the container and *n* is at least 2.
 
 
 ```java
-class Solution {
+class Solution3 {
     public int maxArea(int[] height) {
         int l = 0, r = height.length - 1;
         int max = 0, h = 0;

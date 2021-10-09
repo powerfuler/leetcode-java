@@ -37,7 +37,7 @@ A: 0100 0**001**　　C: 0100 0**011**　　G: 0100 0**111**　　T: 0101 0**100
 ### 代码实现
 
 ```c++
-class Solution {
+class Solution3 {
 public:
     vector<string> findRepeatedDnaSequences(string s) {
         vector<string> res;

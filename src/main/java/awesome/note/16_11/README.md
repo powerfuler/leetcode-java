@@ -38,7 +38,7 @@ k = 3
 
 
 ```java
-public class Solution {
+public class Solution3 {
     public int[] divingBoard(int shorter, int longer, int k) {
         if (k == 0) {
             return new int[0];

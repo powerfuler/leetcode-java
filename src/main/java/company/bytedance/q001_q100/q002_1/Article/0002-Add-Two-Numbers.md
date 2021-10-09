@@ -44,7 +44,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
@@ -73,7 +73,7 @@ public:
 ```
 #### Java
 ```java
-class Solution {
+class Solution3 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
         ListNode cur = dummyHead;
@@ -107,7 +107,7 @@ class Solution {
 ```
 #### Python
 ```python
-class Solution(object):
+class Solution3(object):
     def addTwoNumbers(self, l1, l2):
         res=ListNode(0)
         head=res

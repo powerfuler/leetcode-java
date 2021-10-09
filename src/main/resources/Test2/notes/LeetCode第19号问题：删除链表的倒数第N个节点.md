@@ -45,7 +45,7 @@
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
      ListNode* dummyHead = new ListNode(0);

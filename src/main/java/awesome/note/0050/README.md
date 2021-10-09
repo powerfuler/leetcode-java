@@ -39,7 +39,7 @@ Explanation: 2^-2 = 1/2^2 = 1/4 = 0.25
 题意是让你计算 `x^n`，如果直接计算肯定会超时，那么我们可以想到可以使用二分法来降低时间复杂度。
 
 ```java
-class Solution {
+class Solution3 {
     public double myPow(double x, int n) {
         if (n < 0) return helper(1 / x, -n);
         return helper(x, n);

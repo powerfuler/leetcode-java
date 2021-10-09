@@ -76,7 +76,7 @@
 ### 代码实现（并查集）
 
 ```java
-class Solution {
+class Solution3 {
     // roots 用来记录一个连通区域的代表元素
     private Map<Integer, Integer> roots = new HashMap<>();
     

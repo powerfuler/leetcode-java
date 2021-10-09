@@ -38,7 +38,7 @@ S 和 J 最多含有50个字母。
 Java语言
 
 ```java
-class Solution {
+class Solution3 {
     public int numJewelsInStones(String J, String S) {
         Set<Character> Jset = new HashSet();
         for (char j: J.toCharArray())

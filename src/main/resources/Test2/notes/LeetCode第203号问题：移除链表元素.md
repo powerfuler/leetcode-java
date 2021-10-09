@@ -37,7 +37,7 @@
 // 使用虚拟头结点
 // 时间复杂度: O(n)
 // 空间复杂度: O(1)
-class Solution {
+class Solution3 {
 public:
     ListNode* removeElements(ListNode* head, int val) {
 
@@ -72,7 +72,7 @@ public:
 通过递归调用到链表末尾，然后回来，需要删的元素，将链表next指针指向下一个元素即可。
 
 ```
-class Solution {
+class Solution3 {
 public:
     ListNode* removeElements(ListNode* head, int val) {
         if (!head) return NULL;

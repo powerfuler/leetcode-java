@@ -49,7 +49,7 @@
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public ListNode mergeKLists(ListNode[] lists) {
         //用heap(堆)这种数据结构，也就是 java 里面的 PriorityQueue
         PriorityQueue<ListNode> pq = new PriorityQueue<>(new Comparator<ListNode>() {
@@ -102,7 +102,7 @@ class Solution {
 所以代码实现很容易写：
 
 ```java
-class Solution {
+class Solution3 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         //新建链表
         ListNode dummyHead = new ListNode(0);
@@ -143,7 +143,7 @@ class Solution {
 根据上面的动画，实现代码非常简单也容易理解，先划分，直到不能划分下去，然后开始合并。
 
 ```java
-class Solution {
+class Solution3 {
     public ListNode mergeKLists(ListNode[] lists){
         if(lists.length == 0)
             return null;

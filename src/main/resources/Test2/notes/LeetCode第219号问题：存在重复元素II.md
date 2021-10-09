@@ -52,7 +52,7 @@
 // https://leetcode.com/problems/contains-duplicate-ii/description/
 // 时间复杂度: O(n)
 // 空间复杂度: O(k)
-class Solution {
+class Solution3 {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
 

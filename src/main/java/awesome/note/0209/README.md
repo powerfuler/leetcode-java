@@ -25,7 +25,7 @@
 
 
 ```java
-class Solution {
+class Solution3 {
     public int minSubArrayLen(int s, int[] nums) {
         int ans = Integer.MAX_VALUE;
         for (int i = 0; i < nums.length; i++) {
@@ -51,7 +51,7 @@ class Solution {
 对上面进行优化，我们通过首位两个指针来模拟滑动窗口，如果加起来值小于 s，则向右扩大窗口直至不小于 s，然后固定窗口右侧来向左缩小窗口，同时更新符合条件的最小窗口长度即可，代码如下所示：
 
 ```java
-class Solution {
+class Solution3 {
     public int minSubArrayLen(int s, int[] nums) {
         int left = 0, right = 0, sum = 0, ans = Integer.MAX_VALUE;
         while (right < nums.length) {
@@ -72,7 +72,7 @@ class Solution {
 
 
 ```java
-class Solution {
+class Solution3 {
     public int minSubArrayLen(int s, int[] nums) {
         int ans = Integer.MAX_VALUE;
         int[] sums = new int[nums.length + 1];

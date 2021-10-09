@@ -47,7 +47,7 @@
 ### 代码实现
 
 ```
-public class Solution {
+public class Solution3 {
     public List<Integer> postorderTraversal(TreeNode root) {
     List<Integer> res = new ArrayList<Integer>();
     if(root == null)

@@ -59,7 +59,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class Solution3 {
     public TreeNode recoverFromPreorder(String S) {
         char[] chars = S.toCharArray();
         int len = chars.length;
@@ -104,7 +104,7 @@ public class Solution {
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class Solution3 {
     public TreeNode recoverFromPreorder(String S) {
         char[] chars = S.toCharArray();
         int len = chars.length;

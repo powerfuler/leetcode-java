@@ -69,7 +69,7 @@ for (int i = 0; i < len; i++) {
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
 public:
     int removeDuplicates(vector<int>& nums) {
         if (nums.empty()) return 0;

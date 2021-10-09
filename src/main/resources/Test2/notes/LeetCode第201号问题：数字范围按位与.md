@@ -45,7 +45,7 @@
 ### 代码实现
 
 ```c++
-class Solution {
+class Solution3 {
 public:
     int rangeBitwiseAnd(int m, int n) {
         unsigned int d = INT_MAX;

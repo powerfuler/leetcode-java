@@ -44,7 +44,7 @@
 代码很简单：
 
 ```c++
-class Solution {
+class Solution3 {
 public:
     bool isPowerOfTwo(int n) {
         int cnt = 0;
@@ -70,7 +70,7 @@ public:
 利用这个性质，只需一行代码就可以搞定。
 
 ```c++
-class Solution {
+class Solution3 {
 public:
     bool isPowerOfTwo(int n) {
         return (n > 0) && (!(n & (n - 1)));

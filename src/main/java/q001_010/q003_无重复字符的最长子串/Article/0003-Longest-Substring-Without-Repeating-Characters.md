@@ -39,7 +39,7 @@
 // 滑动窗口
 // 时间复杂度: O(len(s))
 // 空间复杂度: O(len(charset))
-class Solution {
+class Solution3 {
 public:
     int lengthOfLongestSubstring(string s) {
         int freq[256] = {0};

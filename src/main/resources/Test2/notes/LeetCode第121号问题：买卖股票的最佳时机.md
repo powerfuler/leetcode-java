@@ -111,7 +111,7 @@
 ###代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public int maxProfit(int[] prices) {
         if(prices.length <= 1)
             return 0;
@@ -187,7 +187,7 @@ class Solution {
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public int maxProfit(int[] prices) {
         if(prices.length <= 1)
             return 0;
@@ -272,7 +272,7 @@ class Solution {
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public int maxProfit(int[] prices) {
         int fstBuy = Integer.MIN_VALUE, fstSell = 0;
         int secBuy = Integer.MIN_VALUE, secSell = 0;

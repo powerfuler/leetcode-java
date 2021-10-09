@@ -39,7 +39,7 @@ return its minimum depth = 2.
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
         int l = minDepth(root.left);
@@ -64,7 +64,7 @@ class Solution {
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
         LinkedList<TreeNode> q = new LinkedList<>();

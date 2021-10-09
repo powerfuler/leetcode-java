@@ -55,7 +55,7 @@
 
 ```java
 ///简单粗暴，看看就行
-class Solution {
+class Solution3 {
     public boolean isPalindrome(int x) {
         String reversedStr = (new StringBuilder(x + "")).reverse().toString();
         return (x + "").equals(reversedStr);
@@ -83,7 +83,7 @@ class Solution {
 #### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isPalindrome(int x) {
         //边界判断
         if (x < 0) return false;
@@ -127,7 +127,7 @@ class Solution {
 #### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isPalindrome(int x) {
         //思考：这里大家可以思考一下，为什么末尾为 0 就可以直接返回 false
         if (x < 0 || (x % 10 == 0 && x != 0)) return false;

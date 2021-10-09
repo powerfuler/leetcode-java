@@ -60,7 +60,7 @@ n-1                         3n-3                        5n-5
 那么我们可以根据上面找规律，可以看到波峰和波谷是单顶点的，它们周期是 `2 * (n - 1)`，单独处理即可；中间的部分每个周期会出现两次，规律很好找，留给读者自己想象，不懂的可以结合以下代码。
 
 ```java
-class Solution {
+class Solution3 {
     public String convert(String s, int numRows) {
         if (numRows <= 1) return s;
         int len = s.length();
@@ -91,7 +91,7 @@ class Solution {
 另外一种思路就是开辟相应行数的 `StringBuilder` 对象，然后模拟波浪生成的样子分别插入到相应的 `StringBuilder` 对象，比较直白简单，具体代码如下。
 
 ```java
-class Solution {
+class Solution3 {
     public String convert(String s, int numRows) {
         if (numRows <= 1) return s;
         int len = s.length();

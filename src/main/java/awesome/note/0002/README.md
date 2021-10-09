@@ -30,7 +30,7 @@ Explanation: 342 + 465 = 807.
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode node = new ListNode(0);
         ListNode n1 = l1, n2 = l2, t = node;

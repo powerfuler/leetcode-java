@@ -78,7 +78,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 那么我们可以利用 map 来完成罗马数字的 7 个数字符号：I、V、X、L、C、D、M 和整数的映射关系，然后根据上面的解释来模拟完成即可。
 
 ```java
-class Solution {
+class Solution3 {
     public int romanToInt(String s) {
         Map<Character, Integer> map = new HashMap<>();
         map.put('I', 1);

@@ -58,7 +58,7 @@
 /// BFS
 /// Time Complexity: O(n), where n is the number of nodes in the tree
 /// Space Complexity: O(n)
-class Solution {
+class Solution3 {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
 

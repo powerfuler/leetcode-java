@@ -66,7 +66,7 @@
 ```java
 //时间复杂度：O(n)
 //空间复杂度：O(1)
-class Solution {
+class Solution3 {
     public int searchInsert(int[] nums, int target) {
         int i=0;
         for(;i<nums.length;i++){
@@ -90,7 +90,7 @@ class Solution {
 ```java
 //时间复杂度：O(lon(n))
 //空间复杂度：O(1)
-class Solution {
+class Solution3 {
     public int searchInsert(int[] nums, int target) {
         if (target>nums[nums.length-1]) {
             return nums.length;

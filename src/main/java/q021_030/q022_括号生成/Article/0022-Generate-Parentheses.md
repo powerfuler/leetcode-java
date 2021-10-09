@@ -56,7 +56,7 @@ def brute_force(str, l, r):
 代码：
 
 ```C++
-class Solution {
+class Solution3 {
 public:
 
     void dfs(int n, int l, int r, string str, vector<string>& vt) {
@@ -107,7 +107,7 @@ solution(3) = [()()(), ()(()), (())(), (()()), ((()))]
 ### 代码实现
 
 ```C++
-class Solution {
+class Solution3 {
 public:
 
     vector<string> generateParenthesis(int n) {

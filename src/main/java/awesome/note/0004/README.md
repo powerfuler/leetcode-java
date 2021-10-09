@@ -52,7 +52,7 @@ The median is (2 + 3)/2 = 2.5
 借助上面的理论，你能写出相关代码了吗？
 
 ```java
-class Solution {
+class Solution3 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len = nums1.length + nums2.length;
         if (len % 2 == 0) {

@@ -31,7 +31,7 @@ push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 #### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         
         int N = pushed.length;

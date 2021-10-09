@@ -58,7 +58,7 @@ Deque 继承自 Queue（队列），它的直接实现有 ArrayDeque、LinkedLis
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
    public int[] maxSlidingWindow(int[] nums, int k) {
         //有点坑，题目里都说了数组不为空，且 k > 0。但是看了一下，测试用例里面还是有nums = [], k = 0，所以只好加上这个判断
         if (nums == null || nums.length < k || k == 0) return new int[0];

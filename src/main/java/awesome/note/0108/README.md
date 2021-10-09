@@ -48,7 +48,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public TreeNode sortedArrayToBST(int[] nums) {
         if (nums == null || nums.length == 0) return null;
         return helper(nums, 0, nums.length - 1);

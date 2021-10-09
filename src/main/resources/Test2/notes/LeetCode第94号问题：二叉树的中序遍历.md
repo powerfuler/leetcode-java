@@ -44,7 +44,7 @@
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
         public List<Integer> inorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();
             Stack<TreeNode> stack = new Stack<>();

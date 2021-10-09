@@ -73,7 +73,7 @@
 
 #### C++
 ```c++
-class Solution {
+class Solution3 {
 public:
     bool isValid(string s) {
 
@@ -112,7 +112,7 @@ public:
 ```
 #### Java
 ```java
-class Solution {
+class Solution3 {
     public boolean isValid(String s) {
         //String open="({[";
         //String close="]})";
@@ -138,7 +138,7 @@ class Solution {
 ```
 #### Python
 ```python
-class Solution(object):
+class Solution3(object):
     def isValid(self, s):
         open_list = ["[", "{", "("]
         close_list = ["]", "}", ")"]

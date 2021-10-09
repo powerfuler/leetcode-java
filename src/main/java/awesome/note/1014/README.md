@@ -29,7 +29,7 @@
 直接暴力两层 for 循环肯定过不了关，我们把公式变化为 `(A[i] + i) + (A[j] - j)`，看到此应该就可以想到在每次遍历 `j` 时，只需要知道 `max(A[i] + i)` 即可。
 
 ```java
-class Solution {
+class Solution3 {
 
     public int maxScoreSightseeingPair(int[] A) {
         int ans = 0, cur = A[0] + 0;
@@ -41,7 +41,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution3 solution = new Solution3();
         int[] A = new int[]{8, 1, 5, 2, 6};
         System.out.println(solution.maxScoreSightseeingPair(A));
     }

@@ -46,7 +46,7 @@ Output: -1
 
 
 ```java
-class Solution {
+class Solution3 {
     public int search(int[] nums, int target) {
         int l = 0, r = nums.length - 1, mid;
         while (l <= r) {

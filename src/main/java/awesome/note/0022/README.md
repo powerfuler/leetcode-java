@@ -24,7 +24,7 @@ For example, given *n* = 3, a solution set is:
 题意是给你 `n` 值，让你找到所有格式正确的圆括号匹配组，题目中已经给出了 `n = 3` 的所有结果。遇到这种问题，第一直觉就是用到递归或者堆栈，我们选取递归来解决，也就是 `helper` 函数的功能，从参数上来看肯定很好理解了，`leftRest` 代表还有几个左括号可以用，`rightNeed` 代表还需要几个右括号才能匹配，初始状态当然是 `rightNeed = 0, leftRest = n`，递归的终止状态就是 `rightNeed == 0 && leftRest == 0`，也就是左右括号都已匹配完毕，然后把 `str` 加入到链表中即可。
 
 ```java
-class Solution {
+class Solution3 {
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
         helper(list, "", 0, n);
@@ -63,7 +63,7 @@ f(3): "(“f(0)”)"f(2), "(“f(1)”)"f(1), “(“f(2)”)”
 根据如上递推式写出如下代码应该不难了吧。
 
 ```java
-class Solution {
+class Solution3 {
     public List<String> generateParenthesis(int n) {
         HashMap<Integer, List<String>> hashMap = new HashMap<>();
         hashMap.put(0, Collections.singletonList(""));

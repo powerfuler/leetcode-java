@@ -36,7 +36,7 @@
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
 public:
     ListNode* reverseList(ListNode* head) {
         ListNode* pre = NULL;

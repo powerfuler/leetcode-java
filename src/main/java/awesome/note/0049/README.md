@@ -29,7 +29,7 @@ Output:
 题意是给你一组字符串，让你把其中同位异构字符串分组，同位异构字符串就是组成字符串的字符都相同，但是字符放的位置可以不同。既然要分组，那么关键就是如何确定他们是同位异构字符串呢，想到的自然就是对其排序，排序之后他们就都是同一个字符串了，就可以归为一类了，代码如下所示。
 
 ```java
-class Solution {
+class Solution3 {
     public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) return Collections.emptyList();
         List<List<String>> list = new ArrayList<>();

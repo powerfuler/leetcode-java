@@ -83,7 +83,7 @@ Output: false
 * 返回递归调用 `s` 字符串和 `p` 去掉前两位的子字符串是否匹配。
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isMatch(String s, String p) {
         if (p.isEmpty()) return s.isEmpty();
         if (p.length() == 1) {
@@ -117,7 +117,7 @@ class Solution {
 * 如果 `p` 的第二个字符不为 `*`，那么我们就老老实实判断第一个字符是否匹配并且递归调用他们去掉首位的子字符串。
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isMatch(String s, String p) {
         if (p.isEmpty()) return s.isEmpty();
         if (p.length() > 1 && p.charAt(1) == '*') {
@@ -140,7 +140,7 @@ class Solution {
 * 如果 `p[j - 1] != '*'`，`dp[i][j] = dp[i - 1][j - 1] && (pc[j - 1] == '.' || pc[j - 1] == sc[i - 1]);`。
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isMatch(String s, String p) {
         if (p.length() == 0) return s.length() == 0;
         int sL = s.length(), pL = p.length();

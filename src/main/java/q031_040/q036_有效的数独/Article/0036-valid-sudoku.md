@@ -95,7 +95,7 @@
 ```java
 //时间复杂度：O(n)
 //空间复杂度：O(1)
-class Solution {
+class Solution3 {
     public boolean isValidSudoku(char[][] board) {
         HashMap[] row = new HashMap[9];
         HashMap[] column = new HashMap[9];

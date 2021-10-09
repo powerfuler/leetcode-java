@@ -49,7 +49,7 @@
 
 
 ```java
-class Solution {
+class Solution3 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length, n = obstacleGrid[0].length;
         int[][] dp = new int[m][n];

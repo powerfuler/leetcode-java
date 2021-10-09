@@ -44,7 +44,7 @@
 我发现带指针的题目使用 C++ 版本更容易描述，所以下面的代码实现是 C++ 版本。
 
 ```c++
-class Solution {
+class Solution3 {
 public:
     RandomListNode *copyRandomList(RandomListNode *head) {
         if (!head) return NULL;

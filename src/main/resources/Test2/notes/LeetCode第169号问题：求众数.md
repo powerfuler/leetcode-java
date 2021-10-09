@@ -41,7 +41,7 @@
 ### **代码实现**
 
 ```java
-class Solution {
+class Solution3 {
     public int majorityElement(int[] nums) {
         int majorityCount = nums.length/2;
 
@@ -84,7 +84,7 @@ class Solution {
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public int majorityElement(int[] nums) {
     Map<Integer, Integer> map = new HashMap<>();
     // maxNum 表示元素，maxCount 表示元素出现的次数
@@ -134,7 +134,7 @@ class Solution {
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public int majorityElement(int[] nums) {
     int candidate = nums[0], count = 1;
     for (int i = 1; i < nums.length; ++i) {

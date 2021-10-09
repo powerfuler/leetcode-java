@@ -31,7 +31,7 @@ Given 1->2->3->4, you should return the list as 2->1->4->3.
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) return head;
         ListNode node = head.next;
@@ -56,7 +56,7 @@ class Solution {
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public ListNode swapPairs(ListNode head) {
         ListNode preHead = new ListNode(0), cur = preHead;
         preHead.next = head;

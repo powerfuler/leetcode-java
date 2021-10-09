@@ -39,7 +39,7 @@
 ```
 // 时间复杂度: O(n)
 // 空间复杂度: O(n)
-class Solution {
+class Solution3 {
 public:
     void moveZeroes(vector<int>& nums) {
 
@@ -76,7 +76,7 @@ public:
 // 原地(in place)解决该问题
 // 时间复杂度: O(n)
 // 空间复杂度: O(1)
-class Solution {
+class Solution3 {
 public:
     void moveZeroes(vector<int>& nums) {
 
@@ -109,7 +109,7 @@ C++ Code：
 // 原地(in place)解决该问题
 // 时间复杂度: O(n)
 // 空间复杂度: O(1)
-class Solution {
+class Solution3 {
 public:
     void moveZeroes(vector<int>& nums) {
 
@@ -134,7 +134,7 @@ public:
 Java Code：
 
 ```java
-class Solution {
+class Solution3 {
     public void moveZeroes(int[] nums) {
         // 双指针
         int i = 0;
@@ -156,7 +156,7 @@ class Solution {
 Python Code：
 
 ```python
-class Solution:
+class Solution3:
     def moveZeroes(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.

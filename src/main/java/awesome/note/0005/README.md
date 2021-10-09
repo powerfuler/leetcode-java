@@ -30,7 +30,7 @@ Output: "bb"
 题意是寻找出字符串中最长的回文串，所谓回文串就是正序和逆序相同的字符串，也就是关于中间对称。我们先用最常规的做法，依次去求得每个字符的最长回文，要注意每个字符有奇数长度的回文串和偶数长度的回文串两种情况，相信你可以很轻易地从如下代码中找到相关代码，记录最长回文的始末位置即可，时间复杂度的话，首先要遍历一遍字符串，然后对每个字符都去求得最长回文，所以时间复杂度为 `O(n^2)`。
 
 ```java
-class Solution {
+class Solution3 {
     int st, end;
 
     public String longestPalindrome(String s) {
@@ -71,7 +71,7 @@ class Solution {
 根据以上的动态转移方程，我们的问题即可迎刃而解，时间复杂度的话显而易见，也是 `O(n^2)`。
 
 ```java
-class Solution {
+class Solution3 {
     public String longestPalindrome(String s) {
         int len = s.length();
         if (len <= 1) return s;

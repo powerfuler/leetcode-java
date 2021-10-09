@@ -29,7 +29,7 @@ A solution set is:
 题意是让你从数组中找出所有四个数的和为 `target` 的元素构成的非重复序列，该题和 [3Sum][015] 的思路基本一样，先对数组进行排序，然后遍历这个排序数组，因为这次是四个元素的和，所以外层需要两重循环，然后还是用两个指针分别指向当前元素的下一个和数组尾部，判断四者的和与 `target` 的大小来移动两个指针，其中细节操作还是优化和去重。
 
 ```java
-class Solution {
+class Solution3 {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();
         int len = nums.length;
@@ -77,7 +77,7 @@ class Solution {
 从 [Two Sum][001]、[3Sum][015] 到现在的 4Sum，其实都是把高阶降为低阶，那么我们就可以写出 kSum 的函数来对其进行降阶处理，降到 2Sum 后那么我们就可以对其进行最后的判断了，代码如下所示，其也做了相应的优化和去重。
 
 ```java
-class Solution {
+class Solution3 {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
         int len = nums.length;

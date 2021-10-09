@@ -23,7 +23,7 @@
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     private boolean isBalanced = true;
     public boolean isBalanced(TreeNode root) {
         getDepth(root);

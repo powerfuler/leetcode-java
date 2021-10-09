@@ -49,7 +49,7 @@
 // 对整个数组只遍历了一遍
 // 时间复杂度: O(n)
 // 空间复杂度: O(1)
-class Solution {
+class Solution3 {
 public:
     void sortColors(vector<int> &nums) {
 

@@ -39,7 +39,7 @@ return its depth = 3.
  *     TreeNode(int x) { val = x; }
  * }
  */
- class Solution {
+ class Solution3 {
      public int maxDepth(TreeNode root) {
          if (root == null) return 0;
          return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));

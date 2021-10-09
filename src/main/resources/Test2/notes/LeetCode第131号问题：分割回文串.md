@@ -52,7 +52,7 @@
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     List<List<String>> res = new ArrayList<>();
     
     public List<List<String>> partition(String s) {

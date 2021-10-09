@@ -45,7 +45,7 @@
 // 对撞指针
 // 时间复杂度: O(n)
 // 空间复杂度: O(1)
-class Solution {
+class Solution3 {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
         int l = 0, r = numbers.size() - 1;

@@ -53,7 +53,7 @@ void dfs(char[] cs, int u, String cur);
 
 代码：
 ```Java []
-class Solution {
+class Solution3 {
     int N = 10;
     Set<String> set = new HashSet<>();
     boolean[] vis = new boolean[N];
@@ -102,7 +102,7 @@ class Solution {
 
 代码：
 ```Java []
-class Solution {
+class Solution3 {
     int N = 10;
     List<String> list = new ArrayList<>();
     boolean[] vis = new boolean[N];

@@ -37,7 +37,7 @@
 #### 代码实现1
 
 ```java
-class Solution {
+class Solution3 {
     public int missingNumber(int[] nums) {
         int res = 0;
         int i = 0;
@@ -55,7 +55,7 @@ class Solution {
 #### 代码实现2
 
 ```java
-class Solution {
+class Solution3 {
    public int missingNumber(int[] nums) {
     int res = nums.length;
     for (int i = 0; i < nums.length; ++i){
@@ -79,7 +79,7 @@ class Solution {
 
 ```java
 //小吴之前担心会数据溢出，不过估计这题考察的不是这个，所以测试用例没写这种吧，还是能 AC 的
-class Solution {
+class Solution3 {
    public int missingNumber(int[] nums) {
         int n = nums.length;
         int sum = (n+0)*(n+1)/2;
@@ -103,7 +103,7 @@ class Solution {
 > 注：由于一开始进行了排序操作，因此使用二分法的性能是不如上面两种方法。
 
 ```java
-public class Solution {
+public class Solution3 {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
         int left = 0;

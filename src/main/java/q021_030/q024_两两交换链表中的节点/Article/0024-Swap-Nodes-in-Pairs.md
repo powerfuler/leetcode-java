@@ -45,7 +45,7 @@
 // https://leetcode.com/problems/swap-nodes-in-pairs/description/
 // 时间复杂度: O(n)
 // 空间复杂度: O(1)
-class Solution {
+class Solution3 {
 public:
     ListNode* swapPairs(ListNode* head) {
 

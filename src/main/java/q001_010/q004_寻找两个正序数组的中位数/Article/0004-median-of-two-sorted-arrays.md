@@ -79,7 +79,7 @@ nums2 = [3, 4]
 Java语言
 
 ```java
-public class Solution {
+public class Solution3 {
   public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     // 使nums1成为较短数组,不仅可以提高检索速度,同时可以避免一些边界问题
     if (nums1.length > nums2.length) {

@@ -25,7 +25,7 @@
 ### 
 
 ```c++
-class Solution {
+class Solution3 {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>> res;

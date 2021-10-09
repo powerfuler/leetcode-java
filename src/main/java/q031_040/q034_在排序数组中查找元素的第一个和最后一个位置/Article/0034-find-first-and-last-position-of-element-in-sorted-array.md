@@ -42,7 +42,7 @@
 // https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 // 时间复杂度：O(n)
 // 空间复杂度：O(1)
-class Solution {
+class Solution3 {
     public int[] searchRange(int[] nums, int target) {
 		int[] res = new int[] { -1, -1 };
 		int left = 0;

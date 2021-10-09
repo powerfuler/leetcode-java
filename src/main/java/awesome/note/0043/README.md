@@ -33,7 +33,7 @@
 题意是让你计算两个非负字符串的乘积，我们模拟小学数学的方式来做，一位一位模拟计算，再各位累加。
 
 ```java
-class Solution {
+class Solution3 {
     public String multiply(String num1, String num2) {
         if (num1.equals("0") || num2.equals("0")) return "0";
         int l1 = num1.length(), l2 = num2.length(), l = l1 + l2;

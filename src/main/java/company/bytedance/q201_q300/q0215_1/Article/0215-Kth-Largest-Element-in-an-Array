@@ -35,7 +35,7 @@
 Java语言
 
 ```java
-class Solution {
+class Solution3 {
     public int findKthLargest(int[] nums, int k) {
         // // 创建一个小顶堆（优先队列模拟）
         PriorityQueue<Integer> heap =
@@ -60,7 +60,7 @@ C++语言实现
 ```c++
 #include <queue>
 
-class Solution {
+class Solution3 {
 public:
     int findKthLargest(vector<int>& nums, int k) {
         priority_queue<int, vector<int>, greater<int> > Q;

@@ -73,7 +73,7 @@ Output: false
 题意是让让你从判断 `s` 字符串是否通配符匹配于 `p`，这道题和[Regular Expression Matching][010]很是相似，区别在于 `*`，正则匹配的 `*` 不能单独存在，前面必须具有一个字符，其意义是表明前面的这个字符个数可以是任意个数，包括 0 个；而通配符的 `*` 是可以随意出现的，跟前面字符没有任何关系，其作用是可以表示任意字符串。在此我们可以利用 *贪心算法* 来解决这个问题，需要两个额外指针 `p` 和 `match` 来分别记录最后一个 `*` 的位置和 `*` 匹配到 `s` 字符串的位置，其贪心体现在如果遇到 `*`，那就尽可能取匹配后方的内容，如果匹配失败，那就回到上一个遇到 `*` 的位置来继续贪心。
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isMatch(String s, String p) {
         if (p.length() == 0) return s.length() == 0;
         int si = 0, pi = 0, match = 0, star = -1;
@@ -107,7 +107,7 @@ class Solution {
 * 如果 `p[j - 1] == '*'`，`P[i][j] = P[i][j - 1] || P[i - 1][j]`
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isMatch(String s, String p) {
         if (p.length() == 0) return s.length() == 0;
         int sl = s.length(), pl = p.length();

@@ -80,7 +80,7 @@ public int numSquares(int n) {
 ```
 import java.util.LinkedList;
 import javafx.util.Pair;
-class Solution {
+class Solution3 {
     public int numSquares(int n) {
          if(n == 0)
             return 0;

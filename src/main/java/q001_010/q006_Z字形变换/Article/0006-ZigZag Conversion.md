@@ -96,7 +96,7 @@ P     I
 #### 代码实现
 
 ```python
-class Solution:
+class Solution3:
     def convert(self, s: str, numRows: int) -> str:
         # 记录每一行摆放的字母
         rows = ['' for _ in range(numRows)]

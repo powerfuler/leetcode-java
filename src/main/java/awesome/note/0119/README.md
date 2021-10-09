@@ -28,7 +28,7 @@ Could you optimize your algorithm to use only *O*(*k*) extra space?
 题意是指定输出帕斯卡尔三角形的某一行，模拟即可，优化后的代码如下所示。
 
 ```java
-class Solution {
+class Solution3 {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i <= rowIndex; ++i) {

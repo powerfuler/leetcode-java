@@ -51,7 +51,7 @@
 注：`isLetterOrDigit ` 方法确定指定的字符是否为字母或数字。
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isPalindrome(String s) {
         if(s.length() == 0)
              return true;

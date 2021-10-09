@@ -65,7 +65,7 @@
 // 滑动窗口的思路
 // 时间复杂度: O(n)
 // 空间复杂度: O(1)
-class Solution {
+class Solution3 {
     public int minSubArrayLen(int s, int[] nums) {
         int l= 0,r = -1;    // nums[l...r]为我们的滑动窗口
         int sum = 0;

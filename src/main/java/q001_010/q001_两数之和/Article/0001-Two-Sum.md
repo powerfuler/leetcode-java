@@ -43,7 +43,7 @@
 // https://leetcode.com/problems/two-sum/description/
 // 时间复杂度：O(n)
 // 空间复杂度：O(n)
-class Solution {
+class Solution3 {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> record;
@@ -102,7 +102,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 // https://leetcode.com/problems/two-sum/description/
 // 时间复杂度：O(n)
 // 空间复杂度：O(n)
-class Solution {
+class Solution3 {
     public int[] twoSum(int[] nums, int target) {
         int l = nums.length;
         int[] ans=new int[2];
@@ -130,7 +130,7 @@ class Solution {
 # https://leetcode.com/problems/two-sum/description/
 # 时间复杂度：O(n)
 # 空间复杂度：O(n)
-class Solution(object):
+class Solution3(object):
     def twoSum(self, nums, target):
         l = len(nums)
         print(nums)

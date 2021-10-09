@@ -56,7 +56,7 @@
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public List<List<Integer>> generate(int numRows) {
         
      List<List<Integer>> result = new ArrayList<>();
@@ -122,7 +122,7 @@ class Solution {
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
   public List<Integer> getRow(int rowIndex) {
         List<Integer> res = new ArrayList<>(rowIndex + 1);
         long index = 1;

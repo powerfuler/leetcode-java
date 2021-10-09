@@ -34,7 +34,7 @@ Output: []
 我们把 `words` 每个单词出现的次数都存入到一个 `map` 中，然后遍历 `s` 串，依次截取单词长度的子串做比较，如果都符合那就加入结果，如果不符合，我们要把和它相关联的不符合的都剔除掉，这样在之后的遍历就可以跳过该位置从而达到优化的目的。
 
 ```java
-public class Solution {
+public class Solution3 {
     public List<Integer> findSubstring(String s, String[] words) {
         if (s == null) return Collections.emptyList();
         int len = s.length();

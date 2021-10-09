@@ -27,7 +27,7 @@
 ### 代码实现
 
 ```java
-class Solution {
+class Solution3 {
     public boolean isSymmetric(TreeNode root) {
         if(root == null) return true;
         //把问题变成判断两棵树是否是对称的

@@ -26,7 +26,7 @@
 
 ##代码实现
 ```
-class Solution {
+class Solution3 {
     public int singleNonDuplicate(int[] nums) {
         int lo = 0;
         int hi = nums.length - 1;
@@ -69,7 +69,7 @@ class Solution {
 ##代码实现
 
 ```
-class Solution {
+class Solution3 {
     public int singleNonDuplicate(int[] nums) {
         int lo = 0;
         int hi = nums.length - 1;

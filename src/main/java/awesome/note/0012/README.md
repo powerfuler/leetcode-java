@@ -78,7 +78,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 那么我们可以把整数的每一位分离出来，让其每一位都用相应的罗马数字位表示，最终拼接完成。比如 `621` 我们可以分离百、十、个分别为 `6`、`2`、`1`，那么 `600` 对应的罗马数字是 `DC`，`20` 对应的罗马数字是 `XX`，`1` 对应的罗马数字是 `I`，所以最终答案便是 `DCXXI`。
 
 ```java
-class Solution {
+class Solution3 {
     public String intToRoman(int num) {
         String M[] = {"", "M", "MM", "MMM"};
         String C[] = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};

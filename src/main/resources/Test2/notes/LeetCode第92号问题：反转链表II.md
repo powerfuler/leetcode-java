@@ -45,7 +45,7 @@
 ### 代码实现
 
 ```
-class Solution {
+class Solution3 {
 public:
     ListNode *reverseBetween(ListNode *head, int m, int n) {
         ListNode *dummy = new ListNode(-1);

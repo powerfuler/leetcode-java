@@ -43,7 +43,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 

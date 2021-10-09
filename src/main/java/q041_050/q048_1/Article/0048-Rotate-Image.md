@@ -75,7 +75,7 @@
 ## 参考代码
 
 ```Java
-class Solution {
+class Solution3 {
     public void rotate(int[][] matrix) {
         int N = matrix.length;
         for (int i = 0; i < N/2; i++) {

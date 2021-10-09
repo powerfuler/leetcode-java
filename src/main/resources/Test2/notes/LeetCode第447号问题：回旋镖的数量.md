@@ -59,7 +59,7 @@ n 最大为 500，可以使用时间复杂度为 O(n^2)的算法。
 // https://leetcode.com/problems/number-of-boomerangs/description/
 // 时间复杂度: O(n^2)
 // 空间复杂度: O(n)
-class Solution {
+class Solution3 {
 public:
     int numberOfBoomerangs(vector<pair<int, int>>& points) {
 

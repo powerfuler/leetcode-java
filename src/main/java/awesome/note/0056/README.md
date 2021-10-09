@@ -37,7 +37,7 @@ Explanation: Intervals [1,4] and [4,5] are considerred overlapping.
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-class Solution {
+class Solution3 {
     public List<Interval> merge(List<Interval> intervals) {
         if (intervals == null || intervals.size() <= 1) return intervals;
         intervals.sort(new Comparator<Interval>() {

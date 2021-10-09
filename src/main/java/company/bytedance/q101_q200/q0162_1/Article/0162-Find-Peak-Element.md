@@ -46,7 +46,7 @@
 
 ##代码实现
 ```
-public class Solution {
+public class Solution3 {
     public int findPeakElement(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] > nums[i + 1])
@@ -77,7 +77,7 @@ public class Solution {
 ##代码实现
 
 ```
-public class Solution {
+public class Solution3 {
     public int findPeakElement(int[] nums) {
         int l = 0, r = nums.length - 1;
         while (l < r) {

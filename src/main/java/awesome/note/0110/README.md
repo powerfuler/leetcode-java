@@ -54,7 +54,7 @@ Return false.
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution3 {
     public boolean isBalanced(TreeNode root) {
         return helper(root) != -1;
     }

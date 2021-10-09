@@ -42,7 +42,7 @@
 
 
 ```java
-class Solution {
+class Solution3 {
     public boolean wordBreak(String s, List<String> wordDict) {
         int n = s.length();
         int max_length=0;
