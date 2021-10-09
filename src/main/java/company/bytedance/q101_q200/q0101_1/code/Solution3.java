@@ -1,4 +1,6 @@
-package 递归.q101_对称二叉树.f1;
+package company.bytedance.q101_q200.q0101_1.code;
+
+import utils.structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +8,7 @@ import java.util.List;
 /**
  * 层序遍历放入list对比 o(n*log(n))
  */
-public class Solution {
+public class Solution3 {
     public boolean isSymmetric(List<TreeNode> nodes) {
         if (nodes.size() < 2) {
             return true;
@@ -61,6 +63,6 @@ public class Solution {
         t2.left = t5;
         t2.right = t6;
 
-        System.out.println(new Solution().isSymmetric(root));
+        System.out.println(new Solution3().isSymmetric(root));
     }
 }

@@ -1,11 +1,5 @@
 # LeetCode 第 101 号问题：对称二叉树
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
-题目来源于 LeetCode 第 101 号问题：对称二叉树。
-
 ### 题目描述
 
 给定一个二叉树，检查它是否是镜像对称的。
