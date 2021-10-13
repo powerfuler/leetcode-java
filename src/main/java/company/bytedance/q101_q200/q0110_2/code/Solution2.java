@@ -1,9 +1,11 @@
-package company.bytedance.q101_q200.q0110_2.q110_平衡二叉树.f1;
+package company.bytedance.q101_q200.q0110_2.code;
+
+import utils.structure.TreeNode;
 
 /**
  * 从顶至底遍历 o(n^2)
  */
-public class Solution {
+public class Solution2 {
 
     public int getHeight(TreeNode root) {
         if (root == null) {
@@ -36,6 +38,6 @@ public class Solution {
         root.right = n2;
         n2.left = n3;
         n2.right = n4;
-        System.out.println(new Solution().isBalanced(root));
+        System.out.println(new Solution2().isBalanced(root));
     }
 }

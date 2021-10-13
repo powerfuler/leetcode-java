@@ -1,9 +1,11 @@
-package company.bytedance.q101_q200.q0110_2.q110_平衡二叉树.f2;
+package company.bytedance.q101_q200.q0110_2.code;
+
+import utils.structure.TreeNode;
 
 /**
  * 从底至顶遍历 o(n)
  */
-public class Solution {
+public class Solution3 {
 
     public boolean isBalanced(TreeNode root) {
         return depth(root) != -1;
