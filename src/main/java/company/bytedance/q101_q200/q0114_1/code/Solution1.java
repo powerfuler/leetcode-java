@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0114_2.code;
+package company.bytedance.q101_q200.q0114_1.code;
 
 import utils.structure.TreeNode;
 

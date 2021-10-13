@@ -1,4 +1,3 @@
-package company.bytedance.q101_q200.q118_杨辉三角;
 
 import java.util.ArrayList;
 import java.util.List;

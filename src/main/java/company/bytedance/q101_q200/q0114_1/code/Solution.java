@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0114_2.code;
+package company.bytedance.q101_q200.q0114_1.code;
 
 import utils.structure.TreeNode;
 
@@ -17,8 +17,9 @@ public class Solution {
         //记得要将左边置空
         root.left = null;
         //找到树的最右边的节点
-        while(root.right != null)
+        while(root.right != null) {
             root = root.right;
+        }
         //把右边的链表接到刚才树的最右边的节点
         root.right = temp;
     }

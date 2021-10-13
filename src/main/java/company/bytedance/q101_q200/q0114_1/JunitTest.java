@@ -1,6 +1,6 @@
-package company.bytedance.q101_q200.q0114_2;
+package company.bytedance.q101_q200.q0114_1;
 
-import company.bytedance.q101_q200.q0114_2.code.Solution;
+import company.bytedance.q101_q200.q0114_1.code.Solution;
 import org.junit.Test;
 import utils.structure.TreeNode;
 
