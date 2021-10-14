@@ -1,9 +1,9 @@
-package company.bytedance.q101_q200.q0121_2.q121_买卖股票的最佳时机;
+package company.bytedance.q101_q200.q0121_1.code;
 
 /**
  * 维护一个最低股价变量，同时维护当前收益o(n)
  */
-class Solution {
+public class Solution1 {
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;
         int money = 0;
@@ -20,6 +20,6 @@ class Solution {
 
     public static void main(String[] args) {
         int[] a = new int[]{7, 1, 5, 3, 6, 4};
-        System.out.println(new Solution().maxProfit(a));
+        System.out.println(new Solution1().maxProfit(a));
     }
 }
