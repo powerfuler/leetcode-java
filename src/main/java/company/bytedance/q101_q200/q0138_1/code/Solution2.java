@@ -1,11 +1,10 @@
-package company.bytedance.q101_q200.q0138_2.q138_复制带随机指针的链表.f2;
+package company.bytedance.q101_q200.q0138_1.code;
 
 /**
  * 在每一个链表的节点后都新连一个节点之后操作 时间o(n) 额外空间o(1)
  */
-public class Solution {
+public class Solution2 {
     public Node copyRandomList(Node head) {
-
         if (head == null) {
             return null;
         }
@@ -19,7 +18,6 @@ public class Solution {
         }
 
         ptr = head;
-
         while (ptr != null) {
             ptr.next.random = (ptr.random != null) ? ptr.random.next : null;
             ptr = ptr.next.next;
