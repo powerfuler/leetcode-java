@@ -1,10 +1,5 @@
 # LeetCode 第 146 号问题：LRU缓存机制
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
-题目来源于 LeetCode 上第 146 号问题：LRU缓存机制。题目难度为 Hard，目前通过率为 15.8% 。
 
 ### 题目描述
 
