@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0151_2;
+package company.bytedance.q101_q200.q0151_1;
 
 /*
  */

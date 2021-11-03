@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0151_2.code;
+package company.bytedance.q101_q200.q0151_1.code;
 
 /**
  * 不使用Java内置方法实现
