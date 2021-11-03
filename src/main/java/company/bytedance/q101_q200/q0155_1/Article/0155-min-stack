@@ -9,7 +9,7 @@
 
 ```java
 示例：
-   	MinStack minStack = new MinStack();
+   	MinStack minStack = MinStack();
 	minStack.push(-2);
 	minStack.push(0);
 	minStack.push(-5);
@@ -31,13 +31,13 @@
 #### 代码实现
 
 ```java
-class MinStack {
+MinStack {
 
     private Stack<Integer> _data;
     private Stack<Integer> _min;
 
     /** initialize your data structure here. */
-    public MinStack() {
+    public company.bytedance.q101_q200.q0155_1.code.MinStack() {
         _data = new Stack<>();
         _min = new Stack<>();
     }

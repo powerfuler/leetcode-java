@@ -1,15 +1,15 @@
-package company.bytedance.q101_q200.q0155_2.q155_最小栈;
+package company.bytedance.q101_q200.q0155_1.code;
 
 import java.util.Stack;
 
 /**
  * 不使用辅助栈，每次push两个元素
  */
-public class MinStack {
+public class Solution2 {
 
     private Stack<Integer> stack;
 
-    public MinStack() {
+    public Solution2() {
         stack = new Stack<>();
     }
 
