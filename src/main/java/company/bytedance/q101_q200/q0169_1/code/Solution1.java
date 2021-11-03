@@ -34,4 +34,10 @@ public class Solution1 {
         }
         return candidate;
     }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{2,2,1,1,1,2,2};
+        int i = new Solution1().majorityElement(nums);
+        System.out.println(i);
+    }
 }
