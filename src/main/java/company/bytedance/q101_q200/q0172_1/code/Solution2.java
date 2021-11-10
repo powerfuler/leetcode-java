@@ -1,9 +1,9 @@
-package company.bytedance.q101_q200.q0172_2.q172_阶乘后的零.f1;
+package company.bytedance.q101_q200.q0172_1.code;
 
 /**
  * 找因子直接遍历（o(n)超时）
  */
-public class Solution {
+public class Solution2 {
     public int trailingZeroes(int num) {
         int rs = 0;
         for (int i = 1; i <= num; i++) {

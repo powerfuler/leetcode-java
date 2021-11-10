@@ -16,8 +16,27 @@ public class Solution1 {
         return sb.toString();
     }
 
+    /**
+     *  171. Excel 表列序号
+     * @param columnTitle
+     * @return
+     */
+    public int TitleToNumber(String columnTitle) {
+        int res = 0;
+        int length = columnTitle.length();
+        for(int i = 0; i< length; i++) {
+            char c = columnTitle.charAt(i);
+            res = res * 26 + (c - 'A') + 1;
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
-        String s = new Solution1().convertToTitle(28);
+
+        int s = new Solution1().TitleToNumber("AB");
         System.out.println(s);
+
+//        String s = new Solution1().convertToTitle(28);
+//        System.out.println(s);
     }
 }

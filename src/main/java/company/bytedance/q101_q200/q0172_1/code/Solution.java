@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0172_2.q172_阶乘后的零.f2;
+package company.bytedance.q101_q200.q0172_1.code;
 
 /**
  * 基于方法一，寻找5出现的规律o(log(n))
