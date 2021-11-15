@@ -6,7 +6,7 @@ import utils.structure.ListNode;
  * 链表翻转
  * 例子：   head： 1->2->3->4
  */
-public class Solution3 {
+public class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode newLink = null;
         ListNode curr = head;
@@ -23,6 +23,14 @@ public class Solution3 {
             curr = unReversed;
         }
         return newLink;
+    }
+
+    public static void main(String[] args) {
+        ListNode l1 = ListNode.createTestData("[2,4,5,6,7]");
+        long t1 = System.currentTimeMillis();
+        ListNode reverse = new Solution().reverseList(l1);
+        long t2 = System.currentTimeMillis();
+        ListNode.print(reverse);
     }
 }
 

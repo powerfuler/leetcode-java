@@ -20,6 +20,13 @@ public class Solution3 {
         return heap.poll();
     }
 
+    public static void main(String[] args) {
+        int[] nums1 = {1, 2, 3, 1, 5, 6};
+        long t4 = System.currentTimeMillis();
+        int kthLargest = new Solution3().findKthLargest1(nums1, 2);
+        long t5 = System.currentTimeMillis();
+        System.out.println(kthLargest);
+    }
 
     public int findKthLargest1(int[] nums, int k) {
         int len = nums.length;
