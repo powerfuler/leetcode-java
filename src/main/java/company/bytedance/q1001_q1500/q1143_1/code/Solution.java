@@ -1,4 +1,4 @@
-package company.bytedance.q1001_q1500.q1143_最长公共子序列;
+package company.bytedance.q1001_q1500.q1143_1.code;
 
 /**
  * 动态规划 dp[i + 1][j + 1] = Math.max(dp[i+1][j], dp[i][j+1]) o(m*n)
