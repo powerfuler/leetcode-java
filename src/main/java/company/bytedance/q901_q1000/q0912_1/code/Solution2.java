@@ -101,7 +101,7 @@ public class Solution2 {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{5, 1, 1, 2, 0, 0, 8, 4, 6, 5};
+        int[] nums = new int[]{5, 1, 1, 2, 0, 0, 3, 4, 8, 4, 6, 5};
         int[] ints = new Solution2().sortArray(nums);
         System.out.println(ints);
     }
