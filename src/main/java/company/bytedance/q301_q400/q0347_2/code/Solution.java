@@ -1,4 +1,4 @@
-package company.bytedance.q301_q400.q0347_2.q347_前K个高频元素;
+package company.bytedance.q301_q400.q0347_2.code;
 
 import java.util.*;
 
