@@ -1,7 +1,7 @@
 package q081_090.q088_1;
 
-import q081_090.q088_1.code.Solution3;
 import org.junit.Test;
+import q081_090.q088_1.code.Solution5;
 
 public class JunitTest {
 
@@ -12,7 +12,7 @@ public class JunitTest {
         int[] nums2 = {2, 5, 6};
         int n = 3;
         long t4 = System.currentTimeMillis();
-        new Solution3().merge(nums1, m, nums2, n);
+        new Solution5().merge(nums1, m, nums2, n);
         long t5 = System.currentTimeMillis();
         System.out.println(nums1.toString());
     }
