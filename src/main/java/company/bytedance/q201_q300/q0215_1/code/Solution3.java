@@ -21,9 +21,9 @@ public class Solution3 {
     }
 
     public static void main(String[] args) {
-        int[] nums1 = {1, 2, 3, 1, 5, 6};
+        int[] nums1 = {1,10,20 ,2,15 ,13,3, 1, 5, 6};
         long t4 = System.currentTimeMillis();
-        int kthLargest = new Solution3().findKthLargest1(nums1, 2);
+        int kthLargest = new Solution3().findKthLargest(nums1, 2);
         long t5 = System.currentTimeMillis();
         System.out.println(kthLargest);
     }

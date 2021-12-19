@@ -1,4 +1,4 @@
-package company.bytedance.q301_q400.q0344_2;
+package company.bytedance.q301_q400.q0344_1;
 
 import org.junit.Test;
 import utils.structure.ListNode;
