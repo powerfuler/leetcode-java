@@ -1,4 +1,4 @@
-package gp.zhan.L155;
+package gp.stack.L155;
 
 import java.util.Stack;
 

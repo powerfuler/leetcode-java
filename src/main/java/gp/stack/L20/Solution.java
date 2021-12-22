@@ -1,4 +1,4 @@
-package gp.zhan.L20;
+package gp.stack.L20;
 
 import java.util.Stack;
 
