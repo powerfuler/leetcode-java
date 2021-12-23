@@ -14,13 +14,13 @@ class Solution {
                 return mid;
             }
             if (num[mid] > num[start]) {
-                if (target <= num[mid] && num[start] <= target) {
+                if (num[start] <= target && target <= num[mid]) {
                     end = mid;
                 } else {
                     start = mid;
                 }
             } else {
-                if (target >= num[mid] && target <= num[end]) {
+                if (num[mid] <=target && target <= num[end]) {
                     start = mid;
                 } else {
                     end = mid;
