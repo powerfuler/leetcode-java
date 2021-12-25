@@ -39,7 +39,7 @@
 ### 代码实现
 
 ```
-class Solution2 {
+class gp.heap.L215.Solution2 {
 public:
     ListNode *reverseBetween(ListNode *head, int m, int n) {
         ListNode *dummy = new ListNode(-1);

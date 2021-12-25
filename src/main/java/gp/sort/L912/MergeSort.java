@@ -1,6 +1,6 @@
-package gupao;
+package gp.sort.L912;
 
-public class SortEx {
+class SortEx {
 	
 	public static void main(String[] args) {
 		int[] array = new int[100000];
