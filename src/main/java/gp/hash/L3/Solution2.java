@@ -1,4 +1,4 @@
-package gp.hash;
+package gp.hash.L3;
 
 public class Solution2 {
     /**

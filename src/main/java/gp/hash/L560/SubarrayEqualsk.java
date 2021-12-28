@@ -1,4 +1,4 @@
-package gp.hash;
+package gp.hash.L560;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,5 +23,13 @@ class SubarrayEqualsk {
             map.put(nums[i], temp);
         }
         return ans;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{1, 2, 3};
+        int k = 3;
+        SubarrayEqualsk solution = new SubarrayEqualsk();
+        int res = solution.subarraySum(nums, k);
+        System.out.println(res);
     }
 }

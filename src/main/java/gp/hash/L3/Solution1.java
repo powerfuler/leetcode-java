@@ -1,4 +1,4 @@
-package gp.hash;
+package gp.hash.L3;
 
 import java.util.HashSet;
 import java.util.Set;
