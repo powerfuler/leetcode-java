@@ -61,7 +61,7 @@ Tag : 「图论搜索」、「图论 BFS」、「图论 DFS」、「线性 DP」
 
 代码：
 ```Java []
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     public int numWays(int n, int[][] rs, int k) {
         Map<Integer, Set<Integer>> map = new HashMap<>();
         for (int[] r : rs) {
@@ -104,7 +104,7 @@ class Solution {
 
 代码：
 ```Java []
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     Map<Integer, Set<Integer>> map = new HashMap<>();
     int n, k, ans;
     public int numWays(int _n, int[][] rs, int _k) {
@@ -158,7 +158,7 @@ $$
 
 代码：
 ```Java []
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     public int numWays(int n, int[][] rs, int k) {
         int[][] f = new int[k + 1][n];
         f[0][0] = 1;

@@ -48,7 +48,7 @@ $$
 
 代码：
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     public int maxSubArray(int[] nums) {
         int n = nums.length;
         int[] f = new int[n];
@@ -76,7 +76,7 @@ class Solution {
 
 代码：
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     public int maxSubArray(int[] nums) {
         int n = nums.length;
         int max = nums[0], ans = max;
@@ -89,7 +89,7 @@ class Solution {
 }
 ```
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     public int maxSubArray(int[] nums) {
         int n = nums.length;
         int[] f = new int[2];
@@ -124,7 +124,7 @@ class Solution {
 
 代码：
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     public int maxProduct(int[] nums) {
         int n = nums.length;
         int[] g = new int[n + 1]; // 考虑前 i 个，结果最小值
@@ -143,7 +143,7 @@ class Solution {
 }
 ```
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     public int maxProduct(int[] nums) {
         int n = nums.length;
         int min = 1, max = 1;

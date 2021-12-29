@@ -13,7 +13,7 @@ public class Solution {
      * <pre>
      * // Init an array with set 1, 2, and 3.
      * int[] nums = {1,2,3};
-     * Solution solution = new Solution(nums);
+     * gp.DFS.L78.Solution solution = new gp.DFS.L78.Solution(nums);
      *
      * // Shuffle the array [1,2,3] and return its result. Any permutation of [1,2,3]
      * must equally likely to be returned.

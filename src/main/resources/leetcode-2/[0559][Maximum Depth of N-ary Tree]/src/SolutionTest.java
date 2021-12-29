@@ -1,8 +1,7 @@
+import gp.DFS.L78.Solution;
 import org.junit.Assert;
 
 import java.util.ArrayList;
-
-import static org.junit.Assert.*;
 
 /**
  * Author: 王俊超

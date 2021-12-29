@@ -1,6 +1,5 @@
+import gp.DFS.L78.Solution;
 import org.junit.Assert;
-
-import static org.junit.Assert.*;
 
 /**
  * Author: 王俊超

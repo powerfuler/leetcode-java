@@ -1,4 +1,4 @@
-import static org.junit.Assert.*;
+import gp.DFS.L78.Solution;
 
 /**
  * Author: 王俊超

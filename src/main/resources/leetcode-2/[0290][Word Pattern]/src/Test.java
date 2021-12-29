@@ -1,3 +1,5 @@
+import gp.DFS.L78.Solution;
+
 /**
  * @author: wangjunchao(王俊超)
  * @time: 2018-10-10 17:29

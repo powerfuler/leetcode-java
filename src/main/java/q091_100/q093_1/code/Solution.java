@@ -63,8 +63,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-//        List<String> strings = new Solution().restoreIpAddresses("25525511135");
-//        List<String> strings = new Solution().restoreIpAddresses("0000");
+//        List<String> strings = new gp.DFS.L78.Solution().restoreIpAddresses("25525511135");
+//        List<String> strings = new gp.DFS.L78.Solution().restoreIpAddresses("0000");
         List<String> strings = new Solution().restoreIpAddresses("101023");
 
 

@@ -39,7 +39,7 @@ Tag : 「动态规划」、「线性 DP」、「记忆化搜索」、「打表�
 
 代码：
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     int mod = (int)1e9+7;
     public int fib(int n) {
         if (n <= 1) return n;
@@ -67,7 +67,7 @@ class Solution {
 
 代码：
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     static int mod = (int)1e9+7;
     static int N = 110;
     static int[] cache = new int[N];
@@ -91,7 +91,7 @@ class Solution {
 
 代码：
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     static int mod = (int)1e9+7;
     static int N = 110;
     static int[] cache = new int[N];
@@ -214,7 +214,7 @@ $$
 
 代码：
 ```Java
-class Solution {
+class gp.DFS.L46.gp.string.L12.Solution {
     int mod = (int)1e9+7;
     long[][] mul(long[][] a, long[][] b) {
         int r = a.length, c = b[0].length, z = b.length;
