@@ -1,8 +1,7 @@
-package gp.lianbiao.L92;
+package practice.q92_反转链表II;
 
 import utils.structure.ListNode;
 
-//给你单链表的头指针 head 和两个整数left 和 right ，其中left <= right 。请你反转从位置 left 到位置 right 的链表节点，返回 反转后的链表 。
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if (head == null || head.next == null) {
