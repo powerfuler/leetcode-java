@@ -1,4 +1,4 @@
-package gp.lianbiao.L146;
+package practice.q146_LRU;
 
 import java.util.HashMap;
 import java.util.Map;

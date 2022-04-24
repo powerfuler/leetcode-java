@@ -1,4 +1,4 @@
-package gp.stack.L225;
+package practice.q225_用队列实现栈;
 
 import java.util.LinkedList;
 import java.util.Queue;

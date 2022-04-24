@@ -1,4 +1,4 @@
-package gp.queue.L232;
+package practice.q232_用栈实现队列;
 
 import java.util.Stack;
 
