@@ -7,8 +7,8 @@ class CQueue {
     Stack<Integer> in, out;
 
     public CQueue() {
-        in = new Stack<>();
-        out = new Stack<>();
+        in = new Stack<Integer>();
+        out = new Stack<Integer>();
     }
 
     public void appendTail(int value) {

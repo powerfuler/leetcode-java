@@ -25,7 +25,7 @@ public class Solution {
 
     public int[] twoSum(int[] nums, int target) {
         int len = nums.length;
-        HashMap<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < len; ++i) {
             final Integer value = map.get(nums[i]);
             if (value != null) {
