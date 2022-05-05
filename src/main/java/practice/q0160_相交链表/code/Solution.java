@@ -10,22 +10,22 @@ import utils.structure.ListNode;
  * 空间复杂度：$O(1)$
  */
 public class Solution {
-    public ListNode getIntersectionNode(ListNode a, ListNode b) {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int c1 = 0, c2 = 0;
-        ListNode t1 = a, t2 = b;
+        ListNode t1 = headA, t2 = headB;
         while (t1 != null && ++c1 > 0) t1 = t1.next;
         while (t2 != null && ++c2 > 0) t2 = t2.next;
         int t = Math.abs(c1 - c2);
         while (t-- > 0) {
-            if (c1 > c2) a = a.next;
-            else b = b.next;
+            if (c1 > c2) headA = headA.next;
+            else headB = headB.next;
         }
-        while (a != null && b != null) {
-            if (a.equals(b)) {
-                return a;
+        while (headA != null && headB != null) {
+            if (headA.equals(headB)) {
+                return headA;
             } else {
-                a = a.next;
-                b = b.next;
+                headA = headA.next;
+                headB = headB.next;
             }
         }
         return null;
