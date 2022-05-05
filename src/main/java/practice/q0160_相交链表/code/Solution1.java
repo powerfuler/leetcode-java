@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0160_1.code;
+package practice.q0160_相交链表.code;
 
 import utils.structure.ListNode;
 

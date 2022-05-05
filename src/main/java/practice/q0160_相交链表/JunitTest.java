@@ -1,6 +1,6 @@
-package company.bytedance.q101_q200.q0160_1;
+package practice.q0160_相交链表;
 
-import company.bytedance.q101_q200.q0160_1.code.Solution;
+import practice.q0160_相交链表.code.Solution;
 import org.junit.Test;
 import utils.structure.ListNode;
 

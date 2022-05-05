@@ -1,4 +1,4 @@
-package q011_020.q020_有效的括号.code;
+package practice.q020_有效的括号.code;
 
 import java.util.HashMap;
 import java.util.LinkedList;
