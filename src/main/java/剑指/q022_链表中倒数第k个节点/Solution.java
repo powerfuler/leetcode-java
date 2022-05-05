@@ -1,4 +1,4 @@
-package 剑指.q022_1.code;
+package 剑指.q022_链表中倒数第k个节点;
 
 import utils.structure.ListNode;
 
@@ -18,5 +18,11 @@ class Solution {
             fast = fast.next;
         }
         return slow;
+    }
+
+    public static void main(String[] args) {
+        ListNode a= ListNode.createTestData("[1,2,3,4,5]");
+        ListNode kthFromEnd = new Solution().getKthFromEnd(a, 2);
+        ListNode.print(kthFromEnd);
     }
 }
