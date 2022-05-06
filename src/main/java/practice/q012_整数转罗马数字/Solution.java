@@ -1,6 +1,6 @@
-package gp.string.L12;
+package practice.q012_整数转罗马数字;
 
-class Solution {
+public class Solution {
     public String intToRoman(int n) {
         String[] M = {"","M","MM","MMM"};
         String[] C = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};

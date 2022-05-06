@@ -1,4 +1,4 @@
-package q001_010.q002_两数相加.code;
+package practice.q002_两数相加;
 
 import utils.structure.ListNode;
 

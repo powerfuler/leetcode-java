@@ -1,9 +1,8 @@
-package q021_030.q025_K个一组翻转链表.code;
-
+package practice.q025_K个一组翻转链表;
 
 import utils.structure.ListNode;
 
-public class Solution {
+class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || head.next == null) {
             return head;
@@ -14,22 +13,25 @@ public class Solution {
         ListNode pre = dummy;
         ListNode end = dummy;
 
+        ListNode start = pre.next;
+
         while (end.next != null) {
-            for (int i = 0; i < k && end != null; i++) {
+            for (int j = 0; j < k && end != null; j++) {
                 end = end.next;
             }
             if (end == null) {
                 break;
             }
-            ListNode next = end.next;
 
+            ListNode next = end.next;
             end.next = null;
-            ListNode start = pre.next;
+
             pre.next = reverseList(start);
 
             start.next = next;
             pre = start;
             end = start;
+            start = pre.next;
         }
         return dummy.next;
     }
@@ -40,6 +42,7 @@ public class Solution {
         }
         ListNode pre = null;
         ListNode curr = head;
+
         while (curr != null) {
             ListNode next = curr.next;
             curr.next = pre;
@@ -49,9 +52,10 @@ public class Solution {
         return pre;
     }
 
+
     public static void main(String[] args) {
-        ListNode l1 = ListNode.createTestData("[1,2]");
-        ListNode reverse = new Solution().reverseKGroup(l1, 2);
+        ListNode l1 = ListNode.createTestData("[1,2,3,4,5,6,7,8]");
+        ListNode reverse = new Solution().reverseKGroup(l1, 3);
         ListNode.print(reverse);
     }
 }

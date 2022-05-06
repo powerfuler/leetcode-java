@@ -1,4 +1,4 @@
-package q021_030.q025_K个一组翻转链表.code;
+package practice.q025_K个一组翻转链表.code;
 
 import utils.entity.ListNode;
 

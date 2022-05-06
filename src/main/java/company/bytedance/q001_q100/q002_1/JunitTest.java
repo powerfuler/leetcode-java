@@ -1,8 +1,8 @@
 package company.bytedance.q001_q100.q002_1;
 
 import org.junit.Test;
-import q001_010.q002_两数相加.code.Solution1;
-import q001_010.q002_两数相加.code.Solution2;
+import practice.q002_两数相加.Solution1;
+import practice.q002_两数相加.code.Solution2;
 import utils.structure.ListNode;
 
 public class JunitTest {

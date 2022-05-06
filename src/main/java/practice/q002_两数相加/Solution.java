@@ -1,4 +1,4 @@
-package gp.lianbiao.L2;
+package practice.q002_两数相加;
 
 import utils.structure.ListNode;
 

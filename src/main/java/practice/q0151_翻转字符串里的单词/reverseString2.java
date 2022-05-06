@@ -1,4 +1,4 @@
-package gp.string.L151;
+package practice.q0151_翻转字符串里的单词;
 
 class Solution {
     public String reverseWords(String s) {
