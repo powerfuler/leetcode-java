@@ -1,4 +1,4 @@
-package q061_070.q062_1.code;
+package practice.q062_不同路径;
 
 /**
  * 动态规划 dp[i][j]是到达i, j的最多路径 dp[i][j] = dp[i-1][j] + dp[i][j-1] o(m*n)

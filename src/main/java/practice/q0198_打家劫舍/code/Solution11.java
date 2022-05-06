@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0198_1.code;
+package practice.q0198_打家劫舍.code;
 
 public class Solution11 {
     public int rob(int[] nums) {

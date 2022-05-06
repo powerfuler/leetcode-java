@@ -1,4 +1,4 @@
-package q061_070.q070_1.code;
+package practice.q070_爬楼梯;
 
 /**
  * 动态规划 dp[i]表示到达第i阶的方法总数dp[i]=dp[i−1]+dp[i−2]

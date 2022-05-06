@@ -1,4 +1,4 @@
-package q061_070.q070_1.code;
+package practice.q070_爬楼梯.code;
 
 /**
  * 时间复杂度：O(n)

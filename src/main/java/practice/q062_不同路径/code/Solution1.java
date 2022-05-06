@@ -1,4 +1,4 @@
-package q061_070.q062_1.code;
+package practice.q062_不同路径.code;
 
 import java.util.Arrays;
 

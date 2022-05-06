@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0198_1;
+package practice.q0198_打家劫舍;
 
 import org.junit.Test;
 import utils.structure.ListNode;
