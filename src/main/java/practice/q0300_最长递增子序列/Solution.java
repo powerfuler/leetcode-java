@@ -1,4 +1,4 @@
-package company.bytedance.q201_q300.q0300_1.code;
+package practice.q0300_最长递增子序列;
 
 import java.util.Arrays;
 
@@ -27,7 +27,7 @@ import java.util.Arrays;
  *
  *
  */
-public class Solution1 {
+public class Solution {
     public int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -48,7 +48,7 @@ public class Solution1 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{10, 9, 2, 5, 3, 7, 101, 18};
-        int i = new Solution1().lengthOfLIS(nums);
+        int i = new Solution().lengthOfLIS(nums);
         System.out.println(i);
     }
 }
