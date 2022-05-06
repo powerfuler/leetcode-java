@@ -38,7 +38,7 @@ Tag : 「位运算」、「分治」
 
 代码：
 ```Java []
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public int hammingWeight(int n) {
         int ans = 0;
         for (int i = 0; i < 32; i++) {
@@ -67,7 +67,7 @@ public class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java []
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public int hammingWeight(int n) {
         int ans = 0;
         while (n != 0) {
@@ -97,7 +97,7 @@ public class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java []
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public int hammingWeight(int n) {
         int ans = 0;
         for (int i = n; i != 0; i -= lowbit(i)) ans++;
@@ -121,7 +121,7 @@ public class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java []
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public int hammingWeight(int n) {
         n = (n & 0x55555555) + ((n >>> 1)  & 0x55555555);
         n = (n & 0x33333333) + ((n >>> 2)  & 0x33333333);

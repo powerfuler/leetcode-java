@@ -73,7 +73,7 @@ Tag : 「链表」
 
 代码：
 ```Java
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public ListNode getIntersectionNode(ListNode a, ListNode b) {
         for (ListNode h1 = a; h1 != null ; h1 = h1.next) {
             for (ListNode h2 = b; h2 != null ; h2 = h2.next) {
@@ -101,7 +101,7 @@ public class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public ListNode getIntersectionNode(ListNode a, ListNode b) {
         Deque<ListNode> d1 = new ArrayDeque<>(), d2 = new ArrayDeque<>();
         while (a != null) {
@@ -138,7 +138,7 @@ public class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public ListNode getIntersectionNode(ListNode a, ListNode b) {
         Set<ListNode> set = new HashSet<>();
         while (a != null) {
@@ -165,7 +165,7 @@ public class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public ListNode getIntersectionNode(ListNode a, ListNode b) {
         int c1 = 0, c2 = 0;
         ListNode ta = a, tb = b;
@@ -209,7 +209,7 @@ public class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java
-public class gp.DFS.L46.gp.string.L12.Solution {
+public class Solution {
     public ListNode getIntersectionNode(ListNode a, ListNode b) {
         ListNode ta = a, tb = b;
         while (ta != tb) {

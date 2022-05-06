@@ -30,7 +30,7 @@ Tag : 「链表」、「栈」、「队列」、「快慢指针」
 
 代码（栈）：
 ```Java
-class gp.DFS.L46.gp.string.L12.Solution {
+class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         Deque<ListNode> d = new ArrayDeque<>();
         while (head != null) {
@@ -45,7 +45,7 @@ class gp.DFS.L46.gp.string.L12.Solution {
 ```
 代码（队列）：
 ```Java
-class gp.DFS.L46.gp.string.L12.Solution {
+class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         Deque<ListNode> d = new ArrayDeque<>();
         while (head != null) {
@@ -72,7 +72,7 @@ class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java
-class gp.DFS.L46.gp.string.L12.Solution {
+class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         int cnt = 0;
         ListNode tmp = head;
@@ -98,7 +98,7 @@ class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java
-class gp.DFS.L46.gp.string.L12.Solution {
+class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode slow = head, fast = head;
         while (k-- > 0) fast = fast.next;

@@ -33,7 +33,7 @@ Tag : 「二分」
 代码：
 ```Java
 // 找到目标值「最后」出现的分割点，并「往前」进行统计
-class gp.DFS.L46.gp.string.L12.Solution {
+class Solution {
     public int search(int[] nums, int t) {
         int n = nums.length;
         int l = 0, r = n - 1;
@@ -50,7 +50,7 @@ class gp.DFS.L46.gp.string.L12.Solution {
 ```
 ```Java
 // 找到目标值「首次」出现的分割点，并「往后」进行统计
-class gp.DFS.L46.gp.string.L12.Solution {
+class Solution {
     public int search(int[] nums, int t) {
         int n = nums.length;
         int l = 0, r = n - 1;
@@ -76,7 +76,7 @@ class gp.DFS.L46.gp.string.L12.Solution {
 
 代码：
 ```Java
-class gp.DFS.L46.gp.string.L12.Solution {
+class Solution {
     public int search(int[] nums, int t) {
         int n = nums.length;
         if (n == 0) return 0;
