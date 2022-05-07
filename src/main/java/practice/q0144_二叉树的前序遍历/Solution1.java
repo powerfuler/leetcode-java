@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0144_1.code;
+package practice.q0144_二叉树的前序遍历;
 
 import utils.structure.TreeNode;
 
