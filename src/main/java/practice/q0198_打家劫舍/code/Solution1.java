@@ -1,9 +1,5 @@
 package practice.q0198_打家劫舍.code;
 
-/**
- *
- *
- */
 public class Solution1 {
     public int rob(int[] nums) {
         if (nums.length == 0) {

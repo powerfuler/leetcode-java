@@ -1,4 +1,4 @@
-package company.bytedance.q1001_q1500.q1143_1.code;
+package practice.q1143_最长公共子序列.code;
 
 /**
  *

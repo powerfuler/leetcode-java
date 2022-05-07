@@ -1,4 +1,4 @@
-package company.bytedance.q501_q600.q0509_1.code;
+package practice.q0509_斐波那契数列;
 
 class Solution {
     public int fib(int n) {

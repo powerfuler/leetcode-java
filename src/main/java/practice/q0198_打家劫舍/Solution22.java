@@ -1,4 +1,4 @@
-package practice.q0198_打家劫舍.code;
+package practice.q0198_打家劫舍;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
 package practice.q0141_环形链表;
 
-import company.bytedance.q101_q200.q0141_1.code.Solution1;
+import gp.lianbiao.q0141_1.code.Solution1;
 import utils.structure.ListNode;
 
 /**

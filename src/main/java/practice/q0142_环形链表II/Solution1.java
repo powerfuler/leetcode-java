@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0142_1.code;
+package practice.q0142_环形链表II;
 
 import utils.structure.ListNode;
 
@@ -36,5 +36,17 @@ public class Solution1 {
             fast = fast.next;
         }
         return fast;
+    }
+
+    public static void main(String[] args) {
+        ListNode l1 = ListNode.createTestData("[2,4,5,6,5,4,2]");
+        ListNode l2 = l1;
+        while (l2.next != null) {
+            l2 = l2.next;
+        }
+        l2.next = l1.next.next;
+        ListNode listNode = new Solution1().detectCycle(l1);
+        long t2 = System.currentTimeMillis();
+        ListNode.print(listNode);
     }
 }
