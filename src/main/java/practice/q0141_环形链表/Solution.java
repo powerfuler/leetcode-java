@@ -1,6 +1,5 @@
 package practice.q0141_环形链表;
 
-import gp.lianbiao.q0141_1.code.Solution1;
 import utils.structure.ListNode;
 
 /**
@@ -30,7 +29,7 @@ public class Solution {
             l1 = l1.next;
         }
         l1.next = l2;
-        boolean palindrome = new Solution1().hasCycle(l1);
+        boolean palindrome = new Solution().hasCycle(l1);
         System.out.println(palindrome);
     }
 }
