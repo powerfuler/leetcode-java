@@ -1,4 +1,4 @@
-package q081_090.q088_1.code;
+package practice.q088_合并两个有序数组;
 
 /**
  *  时间复杂度：$O(m + n)$
