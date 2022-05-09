@@ -1,4 +1,4 @@
-package q001_010.q003_无重复字符的最长子串.code;
+package gp.hash.q003_无重复字符的最长子串.code;
 
 import java.util.Arrays;
 import java.util.HashMap;

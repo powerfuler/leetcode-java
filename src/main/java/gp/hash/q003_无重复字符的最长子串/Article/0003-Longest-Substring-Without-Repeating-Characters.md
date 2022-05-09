@@ -1,11 +1,5 @@
 # LeetCode 第 3 号问题：无重复字符的最长子串
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
-
-题目来源于 LeetCode 上第 3 号问题：无重复字符的最长子串。题目难度为 Medium，目前通过率为 29.0% 。
-
 ### 题目描述
 
 给定一个字符串，请你找出其中不含有重复字符的 **最长子串** 的长度。

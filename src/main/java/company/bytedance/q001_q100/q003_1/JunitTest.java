@@ -1,8 +1,8 @@
 package company.bytedance.q001_q100.q003_1;
 
 import org.junit.Test;
-import q001_010.q003_无重复字符的最长子串.code.Solution1;
-import q001_010.q003_无重复字符的最长子串.code.Solution2;
+import gp.hash.q003_无重复字符的最长子串.code.Solution1;
+import gp.hash.q003_无重复字符的最长子串.code.Solution2;
 
 public class JunitTest {
 
