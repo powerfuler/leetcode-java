@@ -1,4 +1,4 @@
-package gp.binarysearch.q032_最长有效括号.code;
+package practice.q032_最长有效括号.code;
 
 /**
  * 解题思路二：dp 方法 动态规划

@@ -1,4 +1,4 @@
-package gp.binarysearch.q032_最长有效括号;
+package practice.q032_最长有效括号;
 
 import java.util.Stack;
 
