@@ -1,4 +1,4 @@
-package gp.binarysearch.L33;
+package practice.q033_搜索旋转排序数组;
 
 class Solution {
     public static void main(String[] args) {

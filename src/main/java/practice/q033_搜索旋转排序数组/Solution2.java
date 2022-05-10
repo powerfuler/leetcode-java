@@ -1,4 +1,4 @@
-package q031_040.q033_搜索旋转排序数组.code;
+package practice.q033_搜索旋转排序数组;
 
 /**
  *
@@ -10,7 +10,6 @@ package q031_040.q033_搜索旋转排序数组.code;
  * 这种情况下，前半部分有序。因此如果 nums[start] <=target<nums[mid]，则在前半部分找，否则去后半部分找。
  * 第二类 6 7 1 2 3 4 5 这种，也就是 nums[start] > nums[mid]。此例子中就是 6 > 2。
  * 这种情况下，后半部分有序。因此如果 nums[mid] <target<=nums[end]，则在后半部分找，否则去前半部分找。
- *
  *
  */
 public class Solution2 {

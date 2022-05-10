@@ -1,4 +1,4 @@
-package q031_040.q033_搜索旋转排序数组.code;
+package practice.q033_搜索旋转排序数组;
 
 /**
  *
@@ -32,5 +32,11 @@ public class Solution1 {
             }
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+        int search = new Solution1().search(nums, 3);
+        System.out.println(search);
     }
 }

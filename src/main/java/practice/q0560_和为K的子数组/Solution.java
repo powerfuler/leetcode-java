@@ -1,4 +1,4 @@
-package company.bytedance.q501_q600.q0560_1.code;
+package practice.q0560_和为K的子数组;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,8 +27,8 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3};
-        int k = 3;
+        int[] nums = new int[]{1, 1, 1};
+        int k = 1;
         Solution solution = new Solution();
         int res = solution.subarraySum(nums, k);
         System.out.println(res);

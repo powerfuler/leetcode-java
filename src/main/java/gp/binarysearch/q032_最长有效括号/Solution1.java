@@ -1,4 +1,4 @@
-package q031_040.q032_最长有效括号.code;
+package gp.binarysearch.q032_最长有效括号;
 
 import java.util.Stack;
 
@@ -41,5 +41,9 @@ public class Solution1 {
             }
         }
         return maxLen;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Solution1().longestValidParentheses(")(()())"));
     }
 }

@@ -1,4 +1,4 @@
-package q031_040.q033_搜索旋转排序数组.code;
+package practice.q033_搜索旋转排序数组.code;
 
 /**
  * 循环有序数组查找 二分法o(log(n))
