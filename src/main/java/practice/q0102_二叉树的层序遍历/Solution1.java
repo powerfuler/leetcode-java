@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0102_1.code;
+package practice.q0102_二叉树的层序遍历;
 
 import utils.structure.TreeNode;
 
@@ -7,7 +7,6 @@ import java.util.List;
 
 /**
  * 递归实现
- *
  */
 public class Solution1 {
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -35,5 +34,13 @@ public class Solution1 {
         if (root.right != null) {
             dfs(index + 1, root.right, res);
         }
+    }
+
+    public static void main(String[] args) {
+        TreeNode treeNode = TreeNode.createTestData("[3,9,20,null,null,15,7]");
+        long t4 = System.currentTimeMillis();
+        List<List<Integer>> lists = new Solution1().levelOrder(treeNode);
+        long t5 = System.currentTimeMillis();
+        System.out.println(lists);
     }
 }

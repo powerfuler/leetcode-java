@@ -1,14 +1,9 @@
-package company.bytedance.q101_q200.q0103_1.code;
+package practice.q0103_二叉树的锯齿形层序遍历;
 
 import utils.structure.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- *
- *
- */
 
 public class Solution1 {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
@@ -33,5 +28,11 @@ public class Solution1 {
         }
         traversal(root.left, res, level + 1);
         traversal(root.right, res, level + 1);
+    }
+
+    public static void main(String[] args) {
+        TreeNode treeNode = TreeNode.createTestData("[3,9,20,null,null,15,7,null,null,null,null,18,null,null,20]");
+        List<List<Integer>> lists = new Solution1().zigzagLevelOrder(treeNode);
+        System.out.println(lists);
     }
 }

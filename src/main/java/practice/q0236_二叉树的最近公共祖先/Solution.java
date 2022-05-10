@@ -1,4 +1,4 @@
-package company.bytedance.q201_q300.q0236_1.code;
+package practice.q0236_二叉树的最近公共祖先;
 
 import utils.structure.TreeNode;
 

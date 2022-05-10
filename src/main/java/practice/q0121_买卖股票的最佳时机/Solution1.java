@@ -1,4 +1,4 @@
-package company.bytedance.q101_q200.q0121_1.code;
+package practice.q0121_买卖股票的最佳时机;
 
 /**
  * 维护一个最低股价变量，同时维护当前收益o(n)
