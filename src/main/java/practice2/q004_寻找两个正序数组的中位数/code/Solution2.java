@@ -1,4 +1,4 @@
-package q001_010.q004_寻找两个正序数组的中位数.code;
+package practice2.q004_寻找两个正序数组的中位数.code;
 
 /**
  * 二分法
