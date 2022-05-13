@@ -1,4 +1,4 @@
-package q021_030.q023_合并K个排序链表.code;
+package practice2.q023_合并K个排序链表.code;
 
 import utils.entity.ListNode;
 

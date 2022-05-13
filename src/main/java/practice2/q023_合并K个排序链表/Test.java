@@ -1,10 +1,10 @@
-package q021_030.q023_合并K个排序链表;
+package practice2.q023_合并K个排序链表;
 
 /*
  */
 
 import utils.entity.ListNode;
-import q021_030.q023_合并K个排序链表.code.Solution4;
+import practice2.q023_合并K个排序链表.code.Solution4;
 
 public class Test {
     public static void main(String[] args) {

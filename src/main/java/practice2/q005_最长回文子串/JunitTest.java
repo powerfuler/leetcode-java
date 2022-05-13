@@ -1,8 +1,8 @@
-package q001_010.q005_最长回文子串;
+package practice2.q005_最长回文子串;
 
 import org.junit.Test;
-import q001_010.q005_最长回文子串.code.Solution1;
-import q001_010.q005_最长回文子串.code.Solution2;
+import practice2.q005_最长回文子串.code.Solution1;
+import practice2.q005_最长回文子串.code.Solution2;
 
 public class JunitTest {
 

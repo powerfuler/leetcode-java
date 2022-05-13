@@ -1,4 +1,4 @@
-package q001_010.q005_最长回文子串;
+package practice2.q005_最长回文子串;
 
 /*
 */
