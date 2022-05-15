@@ -1,12 +1,5 @@
 # LeetCode 第 5 号问题：最长回文串
 
-> 本文首发于公众号「图解面试算法」，是 [图解 LeetCode ](<https://github.com/MisterBooo/LeetCodeAnimation>) 系列文章之一。
->
-> 同步博客：https://www.algomooc.com
->
-
-题目来源于 LeetCode 上第 5 号问题：最长回文串。题目难度为 Medium，目前通过率为 29% 。
-
 ## 题目描述
 
 给定一个字符串，要求这个字符串当中最长的回文串。

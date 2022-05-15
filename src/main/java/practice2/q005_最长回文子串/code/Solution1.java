@@ -44,4 +44,7 @@ public class Solution1 {
         return s.substring(start, start + maxLen);
     }
 
+    public static void main(String[] args) {
+        System.out.println(new Solution1().longestPalindrome("caeabbbfbbbaea"));
+    }
 }
